@@ -1,6 +1,6 @@
 ---
 title: Git ve Github Kurmak
-image: /assets/img/blog/louis-hansel.jpg
+image: /assets/img/blog/git.jpg
 description: >
 ---
 
@@ -60,22 +60,24 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 6. Tüm dosyaları ekleyin ve commit etme
 
-(venv) sum@sumaray:~/Desktop/blogSite$ git add --all
-
-(venv) sum@sumaray:~/Desktop/blogSite$ git commit -m "gerekli eklemeler yapıldı"[master b24700e] gerekli eklemeler yapıldı
+`(venv) sum@sumaray:~/Desktop/blogSite$ git add --all
+`
+`(venv) sum@sumaray:~/Desktop/blogSite$ git commit -m "gerekli eklemeler yapıldı"[master b24700e] gerekli eklemeler yapıldı
  1 file changed, 5 insertions(+), 5 deletions(-)
+`
 
 
 7. Uzak bir repo hazır olduğunda (oluşturma adımları aşağıda ki gibi), değişiklikleri push etmek yeterlidir. 
 (venv) sum@sumaray:~/Desktop/blogSite$ git push blogRepo master
 Username for 'https://github.com': ....
 
-Github Deposu Oluşturma (uzak git reposu)
+**Github Deposu Oluşturma (uzak git reposu)**
 
      https://github.com adresinden Hesap Oluştur ve Giriş Yap
      Add New Repository ile Yeni Depo Ekle
      Bir ad ve açıklama verin. Ne yaptığınızı bilmiyorsanız .gitignore veya readme eklemeyin.
      "adding to existiing respository" talimatlarını uygulayın veya şu talimatları izleyebilirsiniz:
+
 Github'a gönderme
 
 A.  repo'nun adresini kopyala
@@ -89,13 +91,13 @@ D.  git push -u repoAdı master
 Projeye Ekleme Yapıldığında 
 
 terminalden proje dizinine gelinmelidir. 
-git status
+`git status
 git add .
 git commit -m "değişiklikler mesajı"
 git status
 git log 
 git remote
-git push -u repoAdı master
+git push -u repoAdı master`
 
      Yerel Dosyayı Push Etme!
 

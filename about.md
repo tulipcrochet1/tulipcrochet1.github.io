@@ -2,4 +2,9 @@
 image: /assets/img/blog/hydejack-8.png
 ---
 
-# Hakkında
+# Hakkımda
+
+**iletişim adresleri**
+
+[github Adresim](https://github.com/sumeyyekilic)
+
