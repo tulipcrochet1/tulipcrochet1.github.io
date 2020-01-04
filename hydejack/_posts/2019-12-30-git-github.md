@@ -14,41 +14,46 @@ Django projemi kullanarak bu kılavuzu uyguladım:
 
 1. git'in yüklenmesi, şu yöntemlerden biriyle yüklenebilir :
 
-    *git-scm 'in kendisinden (tercih edilen) 
+    *[git-scm](https://git-scm.com/) 'in kendisinden (tercih edilen) 
     
-    *Download Heroku CLI
+    *[Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
     
-    *Homebrew 
+    *[Homebrew](https://brew.sh/)
    
 
 2.  Terminal'i açın ve kurulumu doğrulayın
 
-sum@sumaray:~$ git --version
-git version 2.7.4
+`sum@sumaray:~$ git --version
+`
+
+`git version 2.7.4`
 
 3.  Değişiklikleri "izlemek" istediğiniz bir dizinde (klasör) git'i başlatın.
 
-sum@sumaray:~/Desktop/blogSite$ git init
+`sum@sumaray:~/Desktop/blogSite$ git init
+`
 
-Reinitialized existing Git repository in /home/sum/Desktop/blogSite/.git/
+`Reinitialized existing Git repository in /home/sum/Desktop/blogSite/.git/
+`
 
-
-4.    " .gitignore " oluşturun
+4   " .gitignore " oluşturun
 
 Bunun amacı, git ile izlenen dosyaların "yoksayılması" dır. Bu, yerden tasarruf sağlar ve gereksiz dosyaları kaldırır. Önceden oluşturulmuş her türlü yazılım gitignore dosyalarını burada bulabilirsiniz
 
-(venv) sum@sumaray:~/Desktop/blogSite$ echo "*.py[cod]
+`(venv) sum@sumaray:~/Desktop/blogSite$ echo "*.py[cod]
 > .DS_Store
 > __pycache__/
 > *.py[cod]
 > *$py.class
 > " > .gitignore
+`
 
+5  Dosya durumunu kontrol etme
 
-5.  Dosya durumunu kontrol etme
+`(venv) sum@sumaray:~/Desktop/blogSite$ git status
+`
 
-(venv) sum@sumaray:~/Desktop/blogSite$ git status
-On branch master
+```On branch master
 Your branch is up-to-date with 'blogRepo/master'.
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -57,8 +62,9 @@ Changes not staged for commit:
 	modified:   .gitignore
 
 no changes added to commit (use "git add" and/or "git commit -a")
+```
 
-6. Tüm dosyaları ekleyin ve commit etme
+6  Tüm dosyaları ekleyin ve commit etme
 
 `(venv) sum@sumaray:~/Desktop/blogSite$ git add --all
 `
@@ -67,9 +73,11 @@ no changes added to commit (use "git add" and/or "git commit -a")
 `
 
 
-7. Uzak bir repo hazır olduğunda (oluşturma adımları aşağıda ki gibi), değişiklikleri push etmek yeterlidir. 
-(venv) sum@sumaray:~/Desktop/blogSite$ git push blogRepo master
-Username for 'https://github.com': ....
+7  Uzak bir repo hazır olduğunda (oluşturma adımları aşağıda ki gibi), değişiklikleri push etmek yeterlidir. 
+
+`(venv) sum@sumaray:~/Desktop/blogSite$ git push blogRepo master
+`
+Username for 'https://github.com': .... //github kullanıcı adı ve şifre bilgileri girilerel push edilir.
 
 **Github Deposu Oluşturma (uzak git reposu)**
 
@@ -78,7 +86,7 @@ Username for 'https://github.com': ....
      Bir ad ve açıklama verin. Ne yaptığınızı bilmiyorsanız .gitignore veya readme eklemeyin.
      "adding to existiing respository" talimatlarını uygulayın veya şu talimatları izleyebilirsiniz:
 
-Github'a gönderme
+**Github'a gönderme**
 
 A.  repo'nun adresini kopyala
 
@@ -88,7 +96,7 @@ C. git remote    //bağlantı başarılımı
 
 D.  git push -u repoAdı master
 
-Projeye Ekleme Yapıldığında 
+**Projeye Ekleme Yapıldığında** 
 
 terminalden proje dizinine gelinmelidir. 
 `git status
@@ -99,8 +107,10 @@ git log
 git remote
 git push -u repoAdı master`
 
-     Yerel Dosyayı Push Etme!
+  Yerel Dosyayı Push Etme!
 
 
 [docs]: ../../docs/README.md
 [tag]: http://www.minddust.com/post/tags-and-categories-on-github-pages/
+
+[]: h
