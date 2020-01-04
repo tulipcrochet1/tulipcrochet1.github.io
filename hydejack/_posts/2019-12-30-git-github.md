@@ -48,7 +48,7 @@ Bunun amacı, git ile izlenen dosyaların "yoksayılması" dır. Bu, yerden tasa
 > " > .gitignore
 ```
 
-5  Dosya durumunu kontrol etme
+5  Dosya durumunu kontrol etme:
 
 `(venv) sum@sumaray:~/Desktop/blogSite$ git status
 `
