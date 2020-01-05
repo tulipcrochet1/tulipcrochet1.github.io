@@ -106,7 +106,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 **Github Deposu Oluşturma (Uzak Git Reposu ile )**
 
-- https://github.com adresinden Hesap Oluştur ve Giriş Yap
+- [Github](https://github.com) adresinden Hesap Oluştur ve Giriş Yap
      
 - Add New Repository ile Yeni Depo Ekle
   
