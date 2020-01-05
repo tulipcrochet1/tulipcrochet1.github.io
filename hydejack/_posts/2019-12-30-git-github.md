@@ -1,6 +1,6 @@
 ---
 title: Git ve Github Kurmak
-image: /assets/img/blog/git.jpg
+image: /assets/img/blog/git-github.png
 description: >
 ---
 
@@ -13,7 +13,7 @@ Git'i kullanarak kodlarımızı Heroku, AWS ve diğerleri gibi hizmetlerde canl�
 Django projemi kullanarak aşağıdaki adımları uyguladım:
 
 
-1. Git'in yüklenmesi
+1 Git'in yüklenmesi
 şu yöntemlerden biriyle yüklenebilir :
 
  [git-scm](https://git-scm.com/) 'in kendisinden (tercih edilen) 
@@ -22,7 +22,7 @@ Django projemi kullanarak aşağıdaki adımları uyguladım:
     
  [Homebrew](https://brew.sh/)
    
-2. Terminal'i açın ve kurulumu doğrulayın
+2 Terminal'i açın ve kurulumu doğrulayın
 
 ~~~bash
 sum@sumaray:~$ git --version
@@ -32,7 +32,7 @@ git version 2.7.4
 
 Bu şekilde yüklenen/kullanılan sürümün bilgisini alırız.
 
-3. Değişiklikleri "izlemek" istediğiniz bir dizinde (klasör) git'i başlatın.
+3 Değişiklikleri "izlemek" istediğiniz bir dizinde (klasör) git'i başlatın.
 
 ~~~bash
 sum@sumaray:~/Desktop/blogSite$ git init
@@ -40,7 +40,27 @@ sum@sumaray:~/Desktop/blogSite$ git init
 Reinitialized existing Git repository in /home/sum/Desktop/blogSite/.git/
 ~~~
 
-4. " .gitignore " oluşturun
+   3.1 Git Yapılandırması
+   
+   İlk defa git kurulumunda, git programına **kullanıcı adımızı ve mail adresimizi tanıtmamız** gerekir. bizden başka insanlarında dahil olduğu bir yazılım projesinden çalıştığımızda alınan versiyonların karışmaması için kimin tarafından alındığı önemlidir.
+   kullanacağımız tüm git komutlarının başında git geliyor. 
+   (config:ayar,yapılandırma demek)
+ 
+   ~~~shell script
+   sum@sumaray:~$ git config --global user.name "KullanıcıAdı"
+   sum@sumaray:~$ git config --global user.email "mailAdresi@gmail.."
+
+   ~~~
+   
+   Eğer önceden tanımladığınız kullanıcı adı ve gmail adresimizi öğrenmek istersek terminalde şu şekilde sorguyabiliyoruz:
+   ~~~shell script
+  sum@sumaray:~$ git config --global user.name
+  sümeyye kılıç
+  sum@sumaray:~$ git config --global user.email
+  smyyekilic@gmail.com    
+   ~~~
+
+4 " .gitignore " oluşturun
 
 Bunun amacı, git ile izlenen dosyaların "yoksayılması" dır. Bu, yerden tasarruf sağlar ve gereksiz dosyaları kaldırır. Önceden oluşturulmuş her türlü yazılım gitignore dosyalarını burada bulabilirsiniz.
 
@@ -55,7 +75,7 @@ Bunun amacı, git ile izlenen dosyaların "yoksayılması" dır. Bu, yerden tasa
 yukarıda .gitignore dosyasını oluştururken dahil etmek istediğim doyalarıda ekleyerek oluşturdum:
 
 
-5. Dosya durumunu kontrol etme:
+5 Dosya durumunu kontrol etme:
 
 ~~~bash
 (venv) sum@sumaray:~/Desktop/blogSite$ git status
@@ -71,7 +91,7 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ~~~
 
-6. Tüm dosyaları ekleyip commit etme
+6 Tüm dosyaları ekleyip commit etme
 
 ~~~bash
 (venv) sum@sumaray:~/Desktop/blogSite$ git add --all*
@@ -81,8 +101,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
  1 file changed, 5 insertions(+), 5 deletions(-)
 ~~~
 
-
-7. **Uzak bir Repo** (oluşturma adımları aşağıda ki gibi) hazır olduğunda, yerel dosyayı Push et!
+7 **Uzak bir Repo** (oluşturma adımları aşağıda ki gibi) hazır olduğunda, yerel dosyayı Push et!
 
 
 **Github Deposu Oluşturma (Uzak Git Reposu ile )**
@@ -121,7 +140,7 @@ $ git remote
 $ git push -u repoAdı master
 ~~~
 
-7. Yerel Dosyayı Push Etme!
+7 Yerel Dosyayı Push Etme!
 Github repo'su eklendikten sonra 7.adımdaki push etme adımı şu şekilde sonlanır:
 
 ~~~bash
@@ -132,3 +151,24 @@ Github repo'su eklendikten sonra 7.adımdaki push etme adımı şu şekilde sonl
 
 yukarıda  kullanıcı adı,şifre bilgileri girilerek push edilir. Github repo'nuzu yenileyerek eklenen dosyaları görebilirsiniz.
 !
+
+-----
+
+Karşılaştığım bir Hata!
+
+- ekleme yaptığım bir projeyi github repoma push etmede başarısız hatası verdi:
+~~~bash
+sum@sumaray:~/Desktop/sumeyyekilic.github.io$ git push -u origin master
+Username for 'https://github.com': smyyekilic@gmail.com
+Password for 'https://smyyekilic@gmail.com@github.com': 
+To https://github.com/sumeyyekilic/sumeyyekilic.github.io.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/sumeyyekilic/sumeyyekilic.github.io.git'
+~~~
+ Çözmümü :
+ ~~~shell script
+ sum@sumaray:~/Desktop/sumeyyekilic.github.io$ git push origin master -f
+~~~
+yani `git push origin master ` yerine `git push origin master --force`
+veya force yerine f yazmak:  `git push origin master -f`
+
