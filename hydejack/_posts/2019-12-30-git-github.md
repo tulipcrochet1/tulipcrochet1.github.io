@@ -140,7 +140,7 @@ $ git remote
 $ git push -u repoAdı master
 ~~~
 
-7 Yerel Dosyayı Push Etme!
+7 Yerel Dosyayı Push Etme!   🐣  
 Github repo'su eklendikten sonra 7.adımdaki push etme adımı şu şekilde sonlanır:
 
 ~~~bash
@@ -154,7 +154,7 @@ yukarıda  kullanıcı adı,şifre bilgileri girilerek push edilir. Github repo'
 
 -----
 
-Karşılaştığım bir Hata!
+❗ Karşılaştığım bir Hata!
 
 - ekleme yaptığım bir projeyi github repoma push etmede başarısız hatası verdi:
 ~~~bash
