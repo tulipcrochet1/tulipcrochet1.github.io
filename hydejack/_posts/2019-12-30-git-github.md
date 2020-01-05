@@ -165,10 +165,12 @@ To https://github.com/sumeyyekilic/sumeyyekilic.github.io.git
  ! [rejected]        master -> master (fetch first)
 error: failed to push some refs to 'https://github.com/sumeyyekilic/sumeyyekilic.github.io.git'
 ~~~
- Çözümüms :
-~~~bash script
- sum@sumaray:~/Desktop/sumeyyekilic.github.io$ git push origin master -f
+ Çözümüm:
+ 
+~~~bash
+sum@sumaray:~/Desktop/sumeyyekilic.github.io$ git push origin master -f
 ~~~
-yani `git push origin master ` yerine `git push origin master --force`
+yani `git push origin master ` yerine
+`git push origin master --force`
 veya force yerine f yazmak:  `git push origin master -f`
 
