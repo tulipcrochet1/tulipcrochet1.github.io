@@ -46,14 +46,14 @@ Reinitialized existing Git repository in /home/sum/Desktop/blogSite/.git/
    kullanacağımız tüm git komutlarının başında git geliyor. 
    (config:ayar,yapılandırma demek)
  
-   ~~~shell script
+   ~~~bash
    sum@sumaray:~$ git config --global user.name "KullanıcıAdı"
    sum@sumaray:~$ git config --global user.email "mailAdresi@gmail.."
 
    ~~~
    
    Eğer önceden tanımladığınız kullanıcı adı ve gmail adresimizi öğrenmek istersek terminalde şu şekilde sorguyabiliyoruz:
-   ~~~shell script
+   ~~~bash
   sum@sumaray:~$ git config --global user.name
   sümeyye kılıç
   sum@sumaray:~$ git config --global user.email
@@ -117,13 +117,13 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 **Github'a gönderme**
 
-- Repo'nun adresini kopyala
+- `Repo'nun adresini(http://githubKullaniciAdı/repoAdı.github.io.git) kopyala`
 
-- git remote add http://githubKullaniciAdı/repoAdı.github.io.git
+- `git remote add http://githubKullaniciAdı/repoAdı.github.io.git`
 
-- git remote    //bağlantı başarılımı
+- `git remote    //bağlantı başarılımı`
 
-- git push -u repoAdı master
+- `git push -u repoAdı master`
 
 
 **Projeye Ekleme Yapıldığında** 
