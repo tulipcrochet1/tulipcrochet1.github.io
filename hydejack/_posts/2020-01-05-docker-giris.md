@@ -32,7 +32,7 @@ docker run -dp 80:80 dockersamples/101-tutorial
 İkinci adımda gelişitirici ve öğrenmek için deneyen kişilere verilen çalışma alanı bulunmaktadır. BUrada ki alanda biz örnek oluşturduğumuzda, oturum 4 saat sonra siliniyor. Tekrar tekrar alanlar oluşturma imkanınız olduğu için verilen sürelerde istediiniz gibi kurcalayıp silip yeniden örnekler oluşturabilirsiniz. İyi eğlenceler.
 
 
-Yukarda çalıştırdığım komut ile bize verdiği 80 port bağlantısıyla bana verdiği tutorialı başlattığım komut şu:
+Yukarda çalıştırdığım komut ile bana verdiği 80 port bağlantısıyla tutorialı başlattığım komut şuydu:
 ~~~bash 
 docker run -dp 80:80 dockersamples/101-tutorial
 ~~~   
