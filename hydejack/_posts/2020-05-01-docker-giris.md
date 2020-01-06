@@ -1,10 +1,10 @@
 ---
-title: Docker ile Başlangıç 🐳
+title: #DOCKER 101 - Workshop Klavuzum 🐳
 image: /assets/img/blog/docker.jpg
 description: >
 ---
 
-# #docker 101 Serisi 🛳️
+## #DOCKER 101 - Workshop Klavuzum 🛳️
 
 Bu docker serisi, gelişitiricilerin konteynırlarla çalışmaya başlamasına yardımcı olmak amacıyla başladım. Öğretici olması için hem kendim çalışıp hemde çıkarttığım ve uyguladığım notları bir örnek olması açısından faydalı olmasını umarım. Çok fazla derinlemesine ilerlemese de, aşağıdaki konuları kapsayacaktır.
  - İlk konteynırımı run etme
@@ -17,10 +17,6 @@ Bu docker serisi, gelişitiricilerin konteynırlarla çalışmaya başlamasına 
  - Build(derlemeyi) hızlandırma ve push/pull boyutunu azaltmak için image layer önbelleğini kullanma
  - build-time ve runtime bağımlılıklarını ayırmak için multi-stage(çok aşamalı) derlemeler kullanma
 
-
-
-İstediğiniz Yerde Herhangi Bir Uygulama Oluşturun ve Gönderin.
-Docker Hub, ekiplerinizin konteyner uygulamalarını oluşturmak, yönetmek ve sunmak için dünyanın en kolay yoludur.
 # 🔺Docker Hub'a Kaydol
 [https://hub.docker.com/](https://hub.docker.com/) adresine tıklayın ve [Get Started](https://hub.docker.com/signup) deyip bir hesap oluşturarak başlayın. Eğer kayıtlıysan kendi tanımladığın docker id ve şfren ile [Giriş Yapın](https://id.docker.com/login/?next=%2Fid%2Foauth%2Fauthorize%2F%3Fclient_id%3D43f17c5f-9ba4-4f13-853d-9d0074e349a7%26next%3D%252F%253Foverlay%253Donboarding%26nonce%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiI0M2YxN2M1Zi05YmE0LTRmMTMtODUzZC05ZDAwNzRlMzQ5YTciLCJleHAiOjE1NzgzMTMzMTUsImlhdCI6MTU3ODMxMzAxNSwicmZwIjoiQ29lc2ZVS1gxNzl6bkYwdS1fN2Frdz09IiwidGFyZ2V0X2xpbmtfdXJpIjoiLz9vdmVybGF5PW9uYm9hcmRpbmcifQ.Hgpm9BBWFsoxsEGXN-NWX_RtwK-LhXJOFPooNscdlGw%26redirect_uri%3Dhttps%253A%252F%252Fhub.docker.com%252Fsso%252Fcallback%26ref%3Dlogin%26response_type%3Dcode%26scope%3Dopenid%26state%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiI0M2YxN2M1Zi05YmE0LTRmMTMtODUzZC05ZDAwNzRlMzQ5YTciLCJleHAiOjE1NzgzMTMzMTUsImlhdCI6MTU3ODMxMzAxNSwicmZwIjoiQ29lc2ZVS1gxNzl6bkYwdS1fN2Frdz09IiwidGFyZ2V0X2xpbmtfdXJpIjoiLz9vdmVybGF5PW9uYm9hcmRpbmcifQ.Hgpm9BBWFsoxsEGXN-NWX_RtwK-LhXJOFPooNscdlGw).
 
@@ -41,14 +37,15 @@ Yukarda çalıştırdığım komut ile bize verdiği 80 port bağlantısıyla ba
 docker run -dp 80:80 dockersamples/101-tutorial
 ~~~   
 bu komuttaki ki flag'lerin açıklaması:
-    **-d** : containerı bağımsız modda, arkaplanda çalıştırır.
-    **-p 80:80** : dünyaya açmak istediğm portu (sunucu) uygulamanın dinledği port ile eşleştir.
-    **dockersamples/101-tutorial** : çalıştırılan imaj.
-    
-**Container nedir? **
+  - **-d** : containerı bağımsız modda, arkaplanda çalıştırır.
+  - **-p 80:80** : dünyaya açmak istediğm portu (sunucu) uygulamanın dinledği port ile eşleştir.
+  - **dockersamples/101-tutorial** : çalıştırılan imaj.
 
-Artık bir konteyner çalıştırdığımı gördünüz.
-Peki konteyner nedir? 
+
+## **Container nedir?**
+
+Yukarda ki komut ile artık bir konteyner çalıştırdım.
+#####Peki konteyner nedir? 
 Container, ana makinedeki diğer tüm proseslerden izole edilmiş olan sadece senin makinende çalışan prosese verilen isimdir. Bu izolasyon, Linux'ta uzun zamandır var olan kernel ad ve gruplarını kullanıyor. Docker, bu özellikleri ulaşılabilir ve kullanımı kolay hale getirmek için çalışmıştır.
 
 ##  🔺 Docker Nedir ? Neden herkes bunu hakkında konuşuyor...
@@ -58,14 +55,14 @@ docker en sade biçimde anlatırsam, öncelikle gökten bir bilgisayar iniyor. p
  - biri bozulduğunda diğeri bundan etkilenmesin 
  bu istekleri önceden yapmanın en kolay yolu fiziksel ayrı makinelerle oluyordu.(PAHALI OLDU + fiziksel makinaların çoğu kullanılmaz hale geldi.)
 
-içine sanal makine kurulduğunda : 
+İçine sanal makine kurulduğunda : 
  - izolasyon güzel ama o sanal makineyi çalıştıracak VM'in ağırlığı oluşmuştur. 
  - üzerine onun içerisinde çalışan işletim sisteminin üzerine bir işletim sistemi daha kuruluyor. bir işletim sistemi varken birde uygulamalarin her birine ayrı işletim sistemi kuruluyor.
 Docker VM yaptığını kernel seviyesinde yapma amaçlı çıkıyor. Linux kernel seviyesinde(çekşrdek seviyesi), izolasyon yapıyor. İşletim sistemi seviyesinde 
 bunlar birbirini görmesinler yani işletim sistemi seviyesinde dünyaya baktıklarında sadece kendilerini görsünler düşüncesi üzerine kurulmuştur.
 Docker, yazılım geliştirme döngüsünün geliştirme aşaması ile dağıtım aşamasına gelene kadar geçen süre zarfını azaltan bir araçtır.
 
-Docker ve VM aynı gibi görünüyorlar.Disk ve ram koyulsa bir fark yok gibi görünüyor. Aslında büyük farklılıkları var: 
+Docker ve VM aynı gibi görünmektedir. Disk ve ram koyulsa bir fark yok gibi görünüyor. Aslında büyük farklılıkları var: 
 - sanallaştırma , izolasyon , kaynak tasarrufu , güvenlik gibi
 
 Docker kendi uygulamamızı yanında olan bir diğerine karıştırmadan çalıştırmayı  **daha iyi, daha temiz, daha verimli** yapıyor. Maliyeti uygun ve yapmak daha kolay. Tekrar tekrar kullanılabilir ve en önemli olan; sadece bir şey yap ve onu en iyi yap (Unix felsefesi🙂 ) tüm felsefe ; herkes tek işi yapsın ve aradaki koordinasyonu iyi belirlesin.
