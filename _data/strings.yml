@@ -11,12 +11,12 @@
 # Free version
 # ---------------------------------------------------------------------------------------
 home:                  Anasayfa
-pages:                 Pages
-posts:                 Posts
-about:                 About
-related_posts:         Related Posts
+pages:                 Sayfalar
+posts:                 Gönderiler
+about:                 Hakkımda
+related_posts:         İlgili Gönderiler
 other_projects:        Other Projects
-comments:              Comments
+comments:              Yorumlar
 jump_to:               Jump to
 navigation:            Navigation
 social:                Social
