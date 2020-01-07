@@ -51,7 +51,7 @@ Container, ana makinedeki diğer tüm proseslerden izole edilmiş olan sadece se
 
 ##  🔺 Docker Nedir ? Neden herkes bunu hakkında konuşuyor...
 
-dockerı en sade biçimde anlatırsam, öncelikle gökten bir bilgisayar iniyor...  
+Dockerı en sade biçimde anlatırsam, öncelikle gökten bir bilgisayar iniyor...  
 
 Bilgisayarımızın içerisinde farklı servisler çalıştırmak istiyoruz diyelim ki. Farklı servislerin çalıştırabileceği en küçük birimde prosesdir. 
  - İstiyoruz ki ; bunlar çalıştırığında birbiriyle etkileşime girmesin,
@@ -75,15 +75,20 @@ Docker kendi uygulamamızı yanında olan bir diğerine karıştırmadan çalı�
 **Docker Mantığı** ; uygulama geliştiricilere uygulamayı iyi paketlemesini söylerken, birde:
  "ben bunu her yerde çalıştırdığımda bana teslim ettiğin gibi çalışır halde bulacaksın"ın garantisini veriyor.
 
-*happy cycling* 🙂 (*"Mutlu son olmasın, mutlu sonsuz olsun" mottomu savunur nitelikte 💪 )*
-
-Docker'ında temel mottosu anladığım kadarıyla : "sen uygulamayı build et, paketle, ben bunu her yerde çalıştırıcam".
 
 Docker;
-    ✔ ️ Diğer işlemleri kesintiye uğratmadan çalışan birbirinden izole çalışan hava geçirmezkonteynerdır. Bu da aynı anda istediğiniz kadar konteyner çalıştırabilmenizi sağlar. 
-    ✔ ️ Docker konteynerları paylaşılabilir'dir. 
-    ✔ Birkaç docker komutu çalıştırmanız gerekiyor ve uygulama çalışmaya hazır. Ortam kurulumları için zaman harcamanıza gerek yok. 
-    ✔ Docker ile çalışmak, Docker konteynerlerini oluşturabileceğiniz ve çalıştırabileceğiniz ve hatta Swarm modu gibi Docker özellikleriyle kümeler oluşturabileceğiniz bulutta ücretsiz bir Linux sanal makinesine sahip olma deneyimini sunar.
+
+✔ *happy cycling* 🙂 (*"Mutlu son olmasın, mutlu sonsuz olsun" mottomu savunur nitelikte 💪 )* 
+
+✔ Temel mottosu anladığım kadarıyla : "sen uygulamayı build et, paketle, ben bunu her yerde çalıştırıcam".
+
+✔ ️ Diğer işlemleri kesintiye uğratmadan çalışan birbirinden izole çalışan hava geçirmezkonteynerdır. Bu da aynı anda istediğiniz kadar konteyner çalıştırabilmenizi sağlar. 
+    
+✔ ️ Docker konteynerları paylaşılabilir'dir. 
+    
+✔ Birkaç docker komutu çalıştırmanız gerekiyor ve uygulama çalışmaya hazır. Ortam kurulumları için zaman harcamanıza gerek yok. 
+    
+✔ Docker ile çalışmak, Docker konteynerlerini oluşturabileceğiniz ve çalıştırabileceğiniz ve hatta Swarm modu gibi Docker özellikleriyle kümeler oluşturabileceğiniz bulutta ücretsiz bir Linux sanal makinesine sahip olma deneyimini sunar.
 
 ##  🔺Container Image Nedir?
 
@@ -93,7 +98,6 @@ Image container  dosya sistemini içerdiğinden, bir uygulamayı çalıştırmak
 
 image ayrıca konteyner için ortam değişkenleri, çalıştırılacak varsayılan komut ve diğer meta veriler gibi başka yapılandırmalar da içerir.
 
-
-Docker Uygulama ve anlatımım sonraki yazımda bu linkten ulaşabilirsin !
+Docker Uygulama ve anlatımım için sonraki yazıma [bu]() linkten ulaşabilirsin !
 
 ***
