@@ -45,11 +45,13 @@ bu komuttaki ki flag'lerin açıklaması:
 ## **Container nedir?**
 
 Yukarda ki komut ile artık bir konteyner çalıştırdım.
-#####Peki konteyner nedir? 
+
+**Peki konteyner nedir?**  
 Container, ana makinedeki diğer tüm proseslerden izole edilmiş olan sadece senin makinende çalışan prosese verilen isimdir. Bu izolasyon, Linux'ta uzun zamandır var olan kernel ad ve gruplarını kullanıyor. Docker, bu özellikleri ulaşılabilir ve kullanımı kolay hale getirmek için çalışmıştır.
 
 ##  🔺 Docker Nedir ? Neden herkes bunu hakkında konuşuyor...
-docker en sade biçimde anlatırsam, öncelikle gökten bir bilgisayar iniyor.  
+
+dockerı en sade biçimde anlatırsam, öncelikle gökten bir bilgisayar iniyor...  
 
 Bilgisayarımızın içerisinde farklı servisler çalıştırmak istiyoruz diyelim ki. Farklı servislerin çalıştırabileceği en küçük birimde prosesdir. 
  - İstiyoruz ki ; bunlar çalıştırığında birbiriyle etkileşime girmesin,
