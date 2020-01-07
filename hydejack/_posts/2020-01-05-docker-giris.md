@@ -49,16 +49,19 @@ Yukarda ki komut ile artık bir konteyner çalıştırdım.
 Container, ana makinedeki diğer tüm proseslerden izole edilmiş olan sadece senin makinende çalışan prosese verilen isimdir. Bu izolasyon, Linux'ta uzun zamandır var olan kernel ad ve gruplarını kullanıyor. Docker, bu özellikleri ulaşılabilir ve kullanımı kolay hale getirmek için çalışmıştır.
 
 ##  🔺 Docker Nedir ? Neden herkes bunu hakkında konuşuyor...
-docker en sade biçimde anlatırsam, öncelikle gökten bir bilgisayar iniyor. pc var bunu içerisinde farklı servisler çalıştırmak istiyoruz. diyelim. Farklı servislerin çalıştırabileceği en küçün birimde prosesdir. 
- - bunlar çalıştırığında birbiriyle etkileşime girmesin
- - sadece belirli yüzey aralıklarında yada belirli bir port üzerinden çalışsın
- - biri bozulduğunda diğeri bundan etkilenmesin 
- bu istekleri önceden yapmanın en kolay yolu fiziksel ayrı makinelerle oluyordu.(PAHALI OLDU + fiziksel makinaların çoğu kullanılmaz hale geldi.)
+docker en sade biçimde anlatırsam, öncelikle gökten bir bilgisayar iniyor.  
 
-İçine sanal makine kurulduğunda : 
+Bilgisayarımızın içerisinde farklı servisler çalıştırmak istiyoruz diyelim ki. Farklı servislerin çalıştırabileceği en küçük birimde prosesdir. 
+ - İstiyoruz ki ; bunlar çalıştırığında birbiriyle etkileşime girmesin,
+ - sadece belirli yüzey aralıklarında yada belirli bir port üzerinden çalışsın,
+ - biri bozulduğunda diğeri bundan etkilenmesin.
+ bu istekleri önceden yapmanın en kolay yolu fiziksel ayrı makinelerle oluyordu.(pahalı + fiziksel makinaların çoğu kullanılmaz hale geldi.)
+
+İçine sanal makine (VM) kurulduğunda : 
  - izolasyon güzel ama o sanal makineyi çalıştıracak VM'in ağırlığı oluşmuştur. 
  - üzerine onun içerisinde çalışan işletim sisteminin üzerine bir işletim sistemi daha kuruluyor. bir işletim sistemi varken birde uygulamalarin her birine ayrı işletim sistemi kuruluyor.
-Docker VM yaptığını kernel seviyesinde yapma amaçlı çıkıyor. Linux kernel seviyesinde(çekşrdek seviyesi), izolasyon yapıyor. İşletim sistemi seviyesinde 
+
+Docker, VM'in yaptığını kernel seviyesinde yapma amaçlı çıkıyor. Linux kernel seviyesinde(çekşrdek seviyesi), izolasyon yapıyor. İşletim sistemi seviyesinde 
 bunlar birbirini görmesinler yani işletim sistemi seviyesinde dünyaya baktıklarında sadece kendilerini görsünler düşüncesi üzerine kurulmuştur.
 Docker, yazılım geliştirme döngüsünün geliştirme aşaması ile dağıtım aşamasına gelene kadar geçen süre zarfını azaltan bir araçtır.
 
