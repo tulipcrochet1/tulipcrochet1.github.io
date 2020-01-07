@@ -70,7 +70,7 @@ Docker, yazılım geliştirme döngüsünün geliştirme aşaması ile dağıtı
 Docker ve VM aynı gibi görünmektedir. Disk ve ram koyulsa bir fark yok gibi görünüyor. Aslında büyük farklılıkları var: 
 - sanallaştırma , izolasyon , kaynak tasarrufu , güvenlik gibi
 
-Docker kendi uygulamamızı yanında olan bir diğerine karıştırmadan çalıştırmayı  **daha iyi, daha temiz, daha verimli** yapıyor. Maliyeti uygun ve yapmak daha kolay. Tekrar tekrar kullanılabilir ve en önemli olan; sadece bir şey yap ve onu en iyi yap (Unix felsefesi🙂 ) tüm felsefe ; herkes tek işi yapsın ve aradaki koordinasyonu iyi belirlesin.
+Docker kendi uygulamamızı yanında olan bir diğerine karıştırmadan çalıştırmayı  **daha iyi, daha temiz, daha verimli** yapıyor. Maliyeti uygun ve yapmak daha kolay. Tekrar tekrar kullanılabilir ve en önemli olan; sadece bir şey yap ve onu en iyi yap (Unix felsefesi) tüm felsefe ; herkes tek işi yapsın ve aradaki koordinasyonu iyi belirlesin.
 
 **Docker Mantığı** ; uygulama geliştiricilere uygulamayı iyi paketlemesini söylerken, birde:
  "ben bunu her yerde çalıştırdığımda bana teslim ettiğin gibi çalışır halde bulacaksın"ın garantisini veriyor.
