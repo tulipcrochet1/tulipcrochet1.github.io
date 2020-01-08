@@ -7,7 +7,8 @@ description: >
 
 # #DOCKER 101 - Django Uygulaması ile Container Image Oluşturma ve Çalıştırma 🐳️
 
-Önceki yazım Docker 101-workshop Klavuzumun devamı için, kendi Django uygulamam ile çalışacağım.
+Önceki yazım [Docker 101-workshop Klavuzum'un](https://sumeyyekilic.github.io/hydejack/2020-01-05-docker-giris/) adyazdığım adımlardan bir sonraki olan container build etme ve çalıştırma adını uygulayıp anlatacağım.
+Bunu yaparken Django ile geliştirdiğim bir mekan sorgulama uygulamam ile çalışacağım. 
 
 **Başlayalım!**
 
@@ -31,7 +32,7 @@ Gerçek proje için uygulamamı indirip onun üzerinden benimle birlikte takip e
 
 Bir Uygulama Üzerinden sizinde uygulamanız için şu adımları takip ediniz:
 
-1. https://github.com/sumeyyekilic/FoursquareAPI_DjangoApp []  Docker ile Play'e yüklenmesi: 
+1. [Uygulamanın](https://github.com/sumeyyekilic/FoursquareAPI_DjangoApp), [Play with Docker'a](https://labs.play-with-docker.com) yüklenmesi: 
 *önerildiği şekilde, uygulama dosyasını (veya başka bir dosyayı) PWD'deki terminale sürükleyip bırakabilirsiniz.*
 
 2. pwd'den zip dosyasını çıkartın:
@@ -83,7 +84,7 @@ _**Dockerfile, bir container image oluşturmak için kullanılan metin tabanlı 
 Eğer dockerfiles daha önceden oluşturduysanız, aşağıdaki Dockerfile içinde birkaç hata görebilirsiniz. Bu seride bunun üzerine gideceğiz.
 
 1. Öncelikle aşağıdaki içeriği ekleyerek Dockerfile adlı bir dosya oluşturun.
-Termianlde: $ touch dockerfile komutuyla dosyayı oluşturdum. bu PWD içerisindeki terminalin üzerinde gelişitirciye tanınmış bir Editor seçeneği düşünülmüş.BUradan dockerfile dosyamın içerisine django projem için şu eklemeleri yazdım:
+Termianlde:` $ touch dockerfile` komutuyla dosyayı oluşturdum. bu PWD içerisindeki terminalin üzerinde gelişitirciye tanınmış bir Editor seçeneği düşünülmüş.Buradan dockerfile dosyamın içerisine django projem için şu eklemeleri yazdım:
 
 ~~~bash
 FROM python:3.7.4-alpine3.10
