@@ -5,7 +5,7 @@ description: >
 ---
 
 
-# #docker101- Django Uygulaması ile Container Image Oluşturma ve Çalıştırma 🐳️
+# #DOCKER 101 - Django Uygulaması ile Container Image Oluşturma ve Çalıştırma 🐳️
 
 Önceki yazım Docker 101-workshop Klavuzumun devamı için, kendi Django uygulamam ile çalışacağım.
 
