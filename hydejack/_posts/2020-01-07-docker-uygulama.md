@@ -145,7 +145,6 @@ Buraya kadar başarıyla imaj oluşturmuş oldum !
 Bu komut, yeni bir container image'i oluşturmak için Dockerfile'ı kullandı. 
 Bir çok katmanın indirildiğini fark ettim. 
 
-
 # 📝 Uygulama Container'ımızı Başlatalım
 
 Artık bir image'ım var ve uygulamayı çalıştırabilirim! 
