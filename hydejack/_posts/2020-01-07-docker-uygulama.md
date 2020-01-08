@@ -34,6 +34,7 @@ Gerçek proje için uygulamamı indirip onun üzerinden benimle birlikte takip e
 Bir Uygulama Üzerinden sizinde uygulamanız için şu adımları takip ediniz:
 
 1. [Uygulamanın](https://github.com/sumeyyekilic/FoursquareAPI_DjangoApp), [Play with Docker'a](https://labs.play-with-docker.com) yüklenmesi: 
+
 *önerildiği şekilde, uygulama dosyasını (veya başka bir dosyayı) PWD'deki terminale sürükleyip bırakabilirsiniz.*
 
 2. pwd'den zip dosyasını çıkartın:
