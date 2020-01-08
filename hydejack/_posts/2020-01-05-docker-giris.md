@@ -6,7 +6,9 @@ description: >
 
 ## #DOCKER 101 - Workshop Klavuzum 🛳️
 
-Bu docker serisi, gelişitiricilerin konteynırlarla çalışmaya başlamasına yardımcı olmak amacıyla başladım. Öğretici olması için hem kendim çalışıp hemde çıkarttığım ve uyguladığım notları bir örnek olması açısından faydalı olmasını umarım. Çok fazla derinlemesine ilerlemese de, aşağıdaki konuları kapsayacaktır.
+Bu docker serisi, gelişitiricilerin konteynırlarla çalışmaya başlamasına yardımcı olmak amacıyla başladım. Öğretici olması için hem kendim çalışıp hemde çıkarttığım ve uyguladığım notları bir örnek olması açısından faydalı olmasını umarım. 
+
+📝 Çok fazla derinlemesine ilerlemese de, aşağıdaki konuları kapsayacaktır.
  - İlk konteynırımı run etme
  - konteynırları build etme
  - hangi konteynırların çalıştığını öğrenme ve bunları kaldırma

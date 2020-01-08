@@ -76,7 +76,7 @@ Images            dfAPI             requirements.txt  staticfiles
 Procfile          dfas              runtime.txt       templates
 ~~~
 
-# Uygulamanın Container Image'ını Build etme
+# 📝 Uygulamanın Container Image'ını Build etme
 
 Uygulamayı oluşturmak için bir **Dockerfile** kullanmamız gerekiyor. 
 _**Dockerfile, bir container image oluşturmak için kullanılan metin tabanlı bir komut dosyasıdır.**_
@@ -144,7 +144,7 @@ Bu komut, yeni bir container image'i oluşturmak için Dockerfile'ı kullandı.
 Bir çok katmanın indirildiğini fark ettim. 
 
 
-# Uygulama Container'ımızı Başlatalım
+# 📝 Uygulama Container'ımızı Başlatalım
 
 Artık bir image'ım var ve uygulamayı çalıştırabilirim! 
 Bunu yapmak için, docker run komutunu kullanacağız.
