@@ -7,7 +7,7 @@ description: >
 
 # #DOCKER 101 - Django Uygulaması ile Container Image Oluşturma ve Çalıştırma 🐳️
 
-Önceki yazım [Docker 101-workshop Klavuzum'un](https://sumeyyekilic.github.io/hydejack/2020-01-05-docker-giris/) yazdığım adımlardan bir sonraki olan container build etme ve çalıştırma adını uygulayıp anlatacağım.
+Önceki yazım [Docker 101-workshop Klavuzum](https://sumeyyekilic.github.io/hydejack/2020-01-05-docker-giris/)'da yazdığım adımlardan bir sonraki container build etme ve çalıştırmayı uygulayıp anlatacağım.
 
 Bunu yaparken Django ile geliştirdiğim bir mekan sorgulama uygulamam ile çalışacağım. 
 
