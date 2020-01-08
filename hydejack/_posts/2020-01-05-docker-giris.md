@@ -21,7 +21,7 @@ Bu docker serisi, gelişitiricilerin konteynırlarla çalışmaya başlamasına 
 [https://hub.docker.com/](https://hub.docker.com/) adresine tıklayın ve [Get Started](https://hub.docker.com/signup) deyip bir hesap oluşturarak başlayın. Eğer kayıtlıysan kendi tanımladığın docker id ve şfren ile [Giriş Yapın](https://id.docker.com/login/?next=%2Fid%2Foauth%2Fauthorize%2F%3Fclient_id%3D43f17c5f-9ba4-4f13-853d-9d0074e349a7%26next%3D%252F%253Foverlay%253Donboarding%26nonce%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiI0M2YxN2M1Zi05YmE0LTRmMTMtODUzZC05ZDAwNzRlMzQ5YTciLCJleHAiOjE1NzgzMTMzMTUsImlhdCI6MTU3ODMxMzAxNSwicmZwIjoiQ29lc2ZVS1gxNzl6bkYwdS1fN2Frdz09IiwidGFyZ2V0X2xpbmtfdXJpIjoiLz9vdmVybGF5PW9uYm9hcmRpbmcifQ.Hgpm9BBWFsoxsEGXN-NWX_RtwK-LhXJOFPooNscdlGw%26redirect_uri%3Dhttps%253A%252F%252Fhub.docker.com%252Fsso%252Fcallback%26ref%3Dlogin%26response_type%3Dcode%26scope%3Dopenid%26state%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiI0M2YxN2M1Zi05YmE0LTRmMTMtODUzZC05ZDAwNzRlMzQ5YTciLCJleHAiOjE1NzgzMTMzMTUsImlhdCI6MTU3ODMxMzAxNSwicmZwIjoiQ29lc2ZVS1gxNzl6bkYwdS1fN2Frdz09IiwidGFyZ2V0X2xpbmtfdXJpIjoiLz9vdmVybGF5PW9uYm9hcmRpbmcifQ.Hgpm9BBWFsoxsEGXN-NWX_RtwK-LhXJOFPooNscdlGw).
 
 Docker Workshop'una katıldığım ve uygulamada bize verilen klavuz yönergesi şu şekildeydi:
-1. https://labs.play-with-docker.com/ adresine giderek yapacağımız örneğin ilk adımıdır. bu adreste canlı bir sürüm bizi karşılıyor.
+1. [https://labs.play-with-docker.com/](https://labs.play-with-docker.com/) adresine giderek yapacağımız örneğin ilk adımıdır. bu adreste canlı bir sürüm bizi karşılıyor.
 2. add new instance seçneği oluşturulan ortam ile gelen terminalde şunu çalıştır:
 ~~~bash 
 docker run -dp 80:80 dockersamples/101-tutorial
