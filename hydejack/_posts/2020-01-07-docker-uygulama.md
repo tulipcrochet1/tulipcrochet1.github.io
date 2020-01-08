@@ -35,13 +35,15 @@ Bir Uygulama Üzerinden sizinde uygulamanız için şu adımları takip ediniz:
 *önerildiği şekilde, uygulama dosyasını (veya başka bir dosyayı) PWD'deki terminale sürükleyip bırakabilirsiniz.*
 
 2. pwd'den zip dosyasını çıkartın:
-~~~bash 
+
+~~~bash
 [node1] (local) root@192.168.0.18 ~
 $ unzip app1.zip
 ...
 ~~~
 3. Çalışma dizininizden, zipten çıkarttığınız uygulama klasörüne gidin.
 `(ben dfAPIs isimli uygulama klasörüme geçtim)`
+
 ~~~bash
 [node1] (local) root@192.168.0.18 ~
 $ ls
@@ -52,7 +54,7 @@ $ cd dfAPIs
 [node1] (local) root@192.168.0.18 ~/dfAPIs
 ~~~
 4. Bu dizinde [node1] tabanlı uygulamanızı ls komutu ile görüntüleyin.
-~~~sh
+~~~bash
 [node1] (local) root@192.168.0.18 ~/dfAPIs
 $ ls
 dfAPI  venv
@@ -82,6 +84,7 @@ Eğer dockerfiles daha önceden oluşturduysanız, aşağıdaki Dockerfile için
 
 1. Öncelikle aşağıdaki içeriği ekleyerek Dockerfile adlı bir dosya oluşturun.
 Termianlde: $ touch dockerfile komutuyla dosyayı oluşturdum. bu PWD içerisindeki terminalin üzerinde gelişitirciye tanınmış bir Editor seçeneği düşünülmüş.BUradan dockerfile dosyamın içerisine django projem için şu eklemeleri yazdım:
+
 ~~~bash
 FROM python:3.7.4-alpine3.10
 
@@ -118,6 +121,7 @@ ENV VIRTUAL_ENV /env
 ENV PATH /env/bin:$PATH
 #Docker'ı konteynerin çalışma zamanında 8000 bağlantı noktasında dinleyeceğini bildirmek için EXPOSE kullanırız.
 EXPOSE 800
+
 ~~~ 
 bu yazdığım django için docker image kullandığım referansa [şu](https://www.digitalocean.com/community/tutorials/how-to-build-a-django-and-gunicorn-application-with-docker) linkten ulaşabilirsin.
 
@@ -214,13 +218,13 @@ Creating dfapi_web_1 ... done
 
 Uygulama çalıştırıldığı anda bir ekran görüntüsü aldım ve şu şekilde:
 
-![foto](/assets/img/blog/docker.jpg)
+![foto](/assets/img/blog/docker-compose_up.png)
 
 [PWD](https://labs.play-with-docker.com) arayüzünün üst kısmındaki ilk uygulammda oluşan 80 port bağlantısının yanına "3000" linkli bağlantı daha eklendi.
 
 Buna tıklayarak uygulamayı açtım ve sizde görmek isterseniz ekran görüntüsü:
 
-![foto2](/assets/img/blog/docker.jpg)
+![foto2](/assets/img/run.png)
 
 ❗Bu kısa bölümde, bir kapsayıcı görüntüsü oluşturmanın temellerini öğrendik ve bunu yapmak için bir Dockerfile oluşturduk. Bir görüntü oluşturduktan sonra, konteyneri başlattık ve çalışan uygulamayı gördük!
 
