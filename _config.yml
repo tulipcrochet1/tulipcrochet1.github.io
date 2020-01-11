@@ -16,7 +16,7 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  tr-us
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 Sümeyye Kılıç
@@ -24,7 +24,7 @@ title:                 Sümeyye Kılıç
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Python lover"
+  "Python lover "
 
 
 # A shorter description for the sidebar.
@@ -51,10 +51,12 @@ menu:
     url:               https://sumeyyekilic.github.io
   - title:             Yazılarım
     url:               /hydejack/
-  - title:             Açık Kaynak Projelerim
-    url:               /docs/
+  - title:             Projelerim
+    url:               /projelerim/
   - title:             Hakkımda
     url:               /about/
+# - title:             Açık Kaynak Projelerim
+#   url:               /docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
