@@ -6,7 +6,7 @@ description: >
 
 ## Git Kurulumu & Github Repo Oluşturma
 
-**Git** bir sürüm kontrol sistemidir. Projedeki herhangi veya tüm değişikleri takip etmeyi sağlar. Yapacağımız projenin adım adım  versiyon , kopyalarını alır. ihtiyaç duymamız halinde bu versiyonlara, kopyalara kolayca geri dönmemizi sağlar. kodu herkesle paylaşmanın çok kolay bir yoludur.  Github depomuzda yaptığımız gibi.
+**Git** bir sürüm kontrol sistemidir. Projedeki herhangi veya tüm değişikleri takip etmeyi sağlar. Yapacağımız projenin adım adım versiyonlarını, kopyalarını alır. İhtiyaç duymamız halinde bu versiyonlara, kopyalara kolayca geri dönmemiz için olanak sağlar. Github depomuzda yaptığımız gibi , Git sistemi kodu herkesle paylaşmanın çok kolay bir yoludur. 
 
 Git'i kullanarak kodlarımızı Heroku, AWS ve diğerleri gibi hizmetlerde canlı bir bulut uygulama hizmetleriyle dağıtmak için de kullanabilirsiniz.
 

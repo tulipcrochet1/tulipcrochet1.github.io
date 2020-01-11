@@ -19,11 +19,11 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Anasayfa
+title:                 Sümeyye Kılıç
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
-description:           >
+description:           > Python lover
 
 
 # A shorter description for the sidebar.
@@ -46,9 +46,11 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             Anasayfa
+    url:               https://sumeyyekilic.github.io
   - title:             Yazılarım
     url:               /hydejack/
-  - title:             Projelerim
+  - title:             Açık Kaynak Projelerim
     url:               /docs/
   - title:             Hakkımda
     url:               /about/
