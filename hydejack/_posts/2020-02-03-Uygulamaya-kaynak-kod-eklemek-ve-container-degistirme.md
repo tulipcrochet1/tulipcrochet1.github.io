@@ -45,11 +45,11 @@ yerine ;
     
       
 
-Değişikliğini yapıp saved ettim.
+Sadece text değişikliğini yapıp save ettim.
 
   
 
-### Kaynak Kodumuzu Güncelleme¶
+## Kaynak Kodumuzu Güncelleme
 
 1.Yukardaki kod satırını güncelledim
 
@@ -96,20 +96,20 @@ $ docker run -dp 3000:3000 dj-foursquare
 
 ~~~
 
-Kaynak kod değişikliği ile birlikte yeni bir konteyner'ı başarıyla başlatabildim.📝
+Buraya kadar, kaynak kod değişikliği ile birlikte yeni bir konteyner'ı başarıyla başlatabildim.📝
  
 ❗ Ancak ;
 
 > docker: Error response from daemon: driver failed programming external
 > connectivity on endpoint laughing_burnell
 
-yukadaki kod bloğundaki gibi hata alıyorsanız, eski konteynerın remove edilmesi gerekiyor.
+Yukadaki kod bloğundaki gibi hata alıyorsanız, eski konteynerın remove edilmesi gerekiyor.
 Bu hatanın nedeni eğer bir container'ımız hala çalışıyosa yeni container başlatamıyoruz.
 Benim çalıştırıdğım django uygulamam 8000 portunu kullanıyordu. Uygulamayı run ettikten sonra durdurdum ve değişiklikleri yapıp tekrar build ettim ve hata almadım. Fakat  başka dilde yazdığınızda portu kapatamayabilirsiniz ve arka planda sürekli açık kalabilir. 
 
 💡Sonuç olarak şöyle ki, container'ın ana bilgisayarın bağlantı noktası 8000'i kullanması ve yalnızca bir işlemin (kaplar dahil) belirli bir bağlantı noktasını dinleyebilmesidir. Bunu düzeltmek için eski container'ı kaldırmamız gerekiyor. 
 
-### 📝Eski Container'ımızın Değiştirilmesi
+## 📝Eski Container'ımızın Değiştirilmesi
 
 Bir containerı kaldırmak için, öncelikle o containerın durdurulması gerekir. Sonra çıkarılabilir.
   
@@ -156,4 +156,4 @@ Açılan port ile uygulamanızı açtığınızda güncellenmiş halini görecek
 
 ***
 
-Kalıcılıktan bahsetmeden önce, bu imajları başkalarıyla nasıl paylaşacağımızı göreceğiz.
+Sonraki yapılacak adımlarda kalıcılıktan bahsetmeden önce, bu imajları başkalarıyla nasıl paylaşacağımızı göreceğiz.
