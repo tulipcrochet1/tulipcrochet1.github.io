@@ -228,7 +228,7 @@ Buna tıklayarak uygulamayı açtım ve sizde görmek isterseniz ekran görünt�
 
 ![foto2](/assets/img/run.png)
 
-❗Bu kısa bölümde, bir kapsayıcı görüntüsü oluşturmanın temellerini öğrendik ve bunu yapmak için bir Dockerfile oluşturduk. Bir görüntü oluşturduktan sonra, konteyneri başlattık ve çalışan uygulamayı gördük!
+❗Bu kısa bölümde, bir konteyner görüntüsü oluşturmanın temellerini öğrendik ve bunu yapmak için bir Dockerfile oluşturduk. Bir görüntü oluşturduktan sonra, konteyneri başlattık ve çalışan uygulamayı gördük!
 
 
 💎Bir sonraki blog yazımda , uygulamamın bazı yerlerinde kod değişikliği yapacağım ve çalışan uygulamamın yeni bir image ile nasıl güncelleyeceğimi öğreneceğim ve bu linkte anlatacağım 

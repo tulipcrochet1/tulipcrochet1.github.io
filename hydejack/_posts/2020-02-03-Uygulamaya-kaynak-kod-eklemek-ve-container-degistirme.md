@@ -9,7 +9,7 @@ description: >
 ---
 Uygulamaya Kaynak Kod Eklenmesi ve Container'ı Değiştirme 🐳
 
-Bir önceki seri(link) de bir imaj oluşturup, konteyner başlatıp ve bunun üzerinden çalışan uygulamayı görmüştük.
+Bir önceki [seri](https://sumeyyekilic.github.io/hydejack/2020-01-07-docker-uygulama/) de bir imaj oluşturup, konteyner başlatıp ve bunun üzerinden çalışan uygulamayı görmüştük.
 
 Bu çalışan container üzerinden devam edeceğim. Çalışan konteynerları görüntülemek için pwd terminalinden:
 
@@ -53,7 +53,7 @@ Değişikliğini yapıp saved ettim.
 
 1.Yukardaki kod satırını güncelledim
 
-2.Daha önce kullandığımız komutu kullanarak görüntünün güncellenmiş sürümümüzü oluşturalım.
+2.Daha önce kullandığımız komutu kullanarak görüntünün güncellenmiş sürümünü oluşturalım.
 
   
 
@@ -62,6 +62,7 @@ Değişikliğini yapıp saved ettim.
 
 
 ~~~bash
+
 
 venv) [node1] (local) root@192.168.0.48 ~/dfAPIs/dfAPI
 
@@ -95,7 +96,7 @@ $ docker run -dp 3000:3000 dj-foursquare
 
 ~~~
 
- Yeni bir konteyner'ı başarıyla başlatabildim. 
+Kaynak kod değişikliği ile birlikte yeni bir konteyner'ı başarıyla başlatabildim.📝
  
 ❗ Ancak ;
 
@@ -106,9 +107,9 @@ yukadaki kod bloğundaki gibi hata alıyorsanız, eski konteynerın remove edilm
 Bu hatanın nedeni eğer bir container'ımız hala çalışıyosa yeni container başlatamıyoruz.
 Benim çalıştırıdğım django uygulamam 8000 portunu kullanıyordu. Uygulamayı run ettikten sonra durdurdum ve değişiklikleri yapıp tekrar build ettim ve hata almadım. Fakat  başka dilde yazdığınızda portu kapatamayabilirsiniz ve arka planda sürekli açık kalabilir. 
 
-Sonuç olarak şöyle ki, container'ın ana bilgisayarın bağlantı noktası 8000'i kullanması ve yalnızca bir işlemin (kaplar dahil) belirli bir bağlantı noktasını dinleyebilmesidir. Bunu düzeltmek için eski container'ı kaldırmamız gerekiyor. 
+💡Sonuç olarak şöyle ki, container'ın ana bilgisayarın bağlantı noktası 8000'i kullanması ve yalnızca bir işlemin (kaplar dahil) belirli bir bağlantı noktasını dinleyebilmesidir. Bunu düzeltmek için eski container'ı kaldırmamız gerekiyor. 
 
-### Eski Container'ımızın Değiştirilmesi
+### 📝Eski Container'ımızın Değiştirilmesi
 
 Bir containerı kaldırmak için, öncelikle o containerın durdurulması gerekir. Sonra çıkarılabilir.
   
