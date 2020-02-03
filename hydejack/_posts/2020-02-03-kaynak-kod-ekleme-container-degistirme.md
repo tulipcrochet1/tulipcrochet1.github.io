@@ -2,7 +2,7 @@
 
 title: #DOCKER 101 - Uygulamaya Kaynak Kod Eklenmesi ve Container'ı Değiştirme 🐳
 
-image: /assets/img/blog/docker.jpg
+image: /assets/img/blog/docker3.jpg
 
 description: >
 
