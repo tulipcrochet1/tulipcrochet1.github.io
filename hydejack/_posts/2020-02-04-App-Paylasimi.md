@@ -6,7 +6,7 @@ description: >
 
 ---
 
-App'imizin Paylaşımı
+### App'imizin Paylaşımı 🐳
 
 
 Önceki serilerde image yani görüntü oluşturmuştuk. Şimdi bunu paylaşalım! 
@@ -18,7 +18,7 @@ Nedir bu Docker Hub? Kullandığımız tüm images'ların geldiği yerdir.   Ça
 Docker bütün açık kaynak sistemler gibi paylaşıma özendirmesi onu daha işlevsel ve kıymetli hale getirmiştir. DockerHub ile takımların geliştirip oluşturduğu görüntüler(image) herhangi bir ücret talep edilmeksizin sınırsız indirilebilmektedir. Oluşşturulan image'ı yüklemek ve indirmek herkese açık olarak ücretsiz yükleme yapılabilirken , kişiye özel kapalı kaynaklı image'ler 5 taneden sonra ücretlendirilmektedir.
   
 
-### Repo oluşturma
+### 📝Repo oluşturma
 
 1.Bir imagess'ı push etmek için önce Docker Hub'da bir repo oluşturmamız gerekir.
 
@@ -26,19 +26,19 @@ Docker bütün açık kaynak sistemler gibi paylaşıma özendirmesi onu daha i�
 
 - Repo Oluştur (Create Repository ) butonuna tıklayın.
 
-[foto1](/assets/img/create-repo.jpg)
+![foto1](/assets/img/create-repo.jpg)
 
 - Kendi Repo adınızı yazın, ben `django-app` kullandım. Visibilty alanının Public seçili olduğunu teyit edin.
 
 - Oluştur düğmesini tıklayın!
 
-[foto2](/assets/img/repo-name-and-create(1).png)
+![foto2](/assets/img/repo-name-and-create(1).png)
 
  Sayfanın sağ tarafına bakarsanız Docker komutları adlı bir bölüm görürsünüz. Burada , repoya push etmek için çalıştırmanız gereken bir örnek komut verir.
 
-[foto3](/assets/img/docker-run.png)
+![foto3](/assets/img/docker-run.png)
 
-## Image'ımızı Push Edelim
+## 📝Image'ımızı Push Edelim
 
 1.PWD örneğime geri dönüp, komutu çalıştırmayı deneyelim.
 KOmutu çalıştırdığımızda şu hatayı alıyoruz:
@@ -71,7 +71,7 @@ $ docker tag dockersamples/101-tutorial sumk/django-app:tagname
 docker push sumk/django-app
 
 
-### Image'imizi Yeni Bir Instance Üzerinde Çalıştırma¶
+## 📝Image'imizi Yeni Bir Instance Üzerinde Çalıştırma
 
 Artık bu aşamaya kadar imajımız oluşturuldu ve bir docker hub'a aktardık.
 
@@ -80,7 +80,7 @@ Bunun için izleyeceğimiz adım çok basit:
 
 1.PWD terminal sayfamızda yeni bir instance oluşturmak için add new instance 'a  tıklayın.
 
-[foto4](/assets/img/new-instance.png)
+![foto4](/assets/img/new-instance.png)
 
 2.Yeni alanda, push edilen uygulamayı başlatmak için: 
 
