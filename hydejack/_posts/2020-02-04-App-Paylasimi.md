@@ -57,7 +57,7 @@ bundan emin olmak için image'ları listeleyelim. Sizde`docker ımage ls`komutun
 
 Bunu düzeltmek için, image'ımızı "tag" vermemiz gerekir, Temel olarak başka bir isim vermeyi deneyelim.
 
-2.`docker login -u kullanıcıAdı` komutunu kullanarak Docker hub'a giriş yapın.  
+2.`docker login -u kullanıcıAdı` komutunu kullanarak Docker hub'a pwd terminali üzerinden tekrar giriş yapın.  
 
 3.Uygulama image'ına yeni bir ad vermek için `docker tag` komutunu girin. Burda kullanıcı adı kısmına, tanımlı olan Docker id'nizi gireceksiniz
 
@@ -80,7 +80,7 @@ Bunun için izleyeceğimiz adım çok basit:
 
 1.PWD terminal sayfamızda yeni bir instance oluşturmak için add new instance 'a  tıklayın.
 
-![foto4](/assets/img/new-instance.png)
+![foto4](/assets/img/new-ins.png)
 
 2.Yeni alanda, push edilen uygulamayı başlatmak için: 
 
