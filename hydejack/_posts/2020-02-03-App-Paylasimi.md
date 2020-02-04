@@ -21,15 +21,17 @@ Docker bütün açık kaynak sistemler gibi paylaşıma özendirmesi onu daha i�
 ### Repo oluşturma
 
 1.Bir imagess'ı push etmek için önce Docker Hub'da bir repo oluşturmamız gerekir.
-2.Docker hub'a (giriş yapın).
+2.[Docker hub](https://hub.docker.com/)'a (giriş yapın).
 
 - Repo Oluştur (Create Repository ) butonuna tıklayın.
+[foto1](/assets/img/create-repo.jpg)
 - Kendi Repo adınızı yazın, ben `django-app` kullandım. Visibilty alanının Public seçili olduğunu teyit edin.
 - Oluştur düğmesini tıklayın!
+[foto1](/assets/img/repo-name-and-create(1).png)
 
  Sayfanın sağ tarafına bakarsanız Docker komutları adlı bir bölüm görürsünüz. Burada , repoya push etmek için çalıştırmanız gereken bir örnek komut verir.
+[foto1](/assets/img/docker-run.png)
 
-  
 
 ## Image'ımızı Push Edelim
 
@@ -70,6 +72,7 @@ Image'ı yeni bir instance üzerinde çalıştırmak demek; bizim kontainerımı
 Bunun için izleyeceğimiz adım çok basit:
 
 1.PWD terminal sayfamızda yeni bir instance oluşturmak için add new instance 'a  tıklayın.
+[foto1](/assets/img/new-instance.png)
 
 2.Yeni alanda, push edilen uygulamayı başlatmak için: 
 
