@@ -82,7 +82,9 @@ Bunun için izleyeceğimiz adım çok basit:
 
 ![foto4](/assets/img/new-ins.png)
 
-2.Yeni alanda, push edilen uygulamayı başlatmak için: 
+yukarıda node2 alanı oluşturuldu. 
+
+2.Yeni oluştdrduğum node2 alanında, push edilen uygulamayı başlatmak için: 
 
 ~~~bash
  docker run-DP 3000: 3000 sumk/django-app:tagname
@@ -95,4 +97,4 @@ Sizde bu aşamaya kadar hatasız geldiyseniz, yeni alanda da çalışan uygulama
 
 
 Bu bölümde, image'larımızı docker hub'a göndererek nasıl paylaşacağımızı öğrendim. 
-Daha sonra yepyeni bir new instance oluşturduk ve push edilen bu image2ın çalıştırabildiğini gördüm. eğer bu image'ı docker hub ile bir registry de tutmasaydık bu image'ımızı başka alanlarda çalıştıramayacaktık. sadece kendi alanımızda çalıştırabilecektik
+Daha sonra yepyeni bir new instance oluşturdum ve push edilen bu image'ın çalıştırabildiğini gördüm. eğer bu image'ı docker hub ile bir registry de tutmasaydık bu image'ımızı başka alanlarda çalıştıramayacaktık. sadece kendi alanımızda çalıştırabilecektik
