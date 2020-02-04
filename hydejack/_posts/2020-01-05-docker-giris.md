@@ -100,6 +100,6 @@ Image container  dosya sistemini içerdiğinden, bir uygulamayı çalıştırmak
 
 image ayrıca konteyner için ortam değişkenleri, çalıştırılacak varsayılan komut ve diğer meta veriler gibi başka yapılandırmalar da içerir.
 
-Docker Uygulama ve anlatımım için sonraki yazıma [bu]() linkten ulaşabilirsin !
+Docker Uygulama ve anlatımım için sonraki yazıma [bu](https://sumeyyekilic.github.io/hydejack/2020-01-07-docker-uygulama/) linkten ulaşabilirsin !
 
 ***
