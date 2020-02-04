@@ -21,11 +21,14 @@ Docker bütün açık kaynak sistemler gibi paylaşıma özendirmesi onu daha i�
 ### Repo oluşturma
 
 1.Bir imagess'ı push etmek için önce Docker Hub'da bir repo oluşturmamız gerekir.
+
 2.[Docker hub](https://hub.docker.com/)'a (giriş yapın).
 
 - Repo Oluştur (Create Repository ) butonuna tıklayın.
 [foto1](/assets/img/create-repo.jpg)
+
 - Kendi Repo adınızı yazın, ben `django-app` kullandım. Visibilty alanının Public seçili olduğunu teyit edin.
+
 - Oluştur düğmesini tıklayın!
 [foto1](/assets/img/repo-name-and-create(1).png)
 
@@ -44,6 +47,7 @@ $ docker push sumk/django-app:tagname
 The push refers to repository [docker.io/sumk/django-app]
 An image does not exist locally with the tag: sumk/django-app
 ~~~
+
 Docker bana sumk/django-app:  tagi ile yerel olarak bir image mevcut olmadığını söylüyor. Peki Neden? 
 `docker push sumk/django-app:tagname` burada push komutu docker sumk/django-app:tagname adlı bir görüntü aradı ve bulamadı. 
 bundan emin olmak için image'ları listeleyelim. Sizde`docker ımage ls`komutunu pwd terminalinde çalıştırarak teyit edebilirsniz
@@ -54,6 +58,7 @@ Bunu düzeltmek için, image'ımızı "tag" vermemiz gerekir, Temel olarak başk
 2.`docker login -u kullanıcıAdı` komutunu kullanarak Docker hub'a giriş yapın.  
 
 3.Uygulama image'ına yeni bir ad vermek için `docker tag` komutunu girin. Burda kullanıcı adı kısmına, tanımlı olan Docker id'nizi gireceksiniz
+
 ~~~bash
 [node1] (local) root@192.168.0.23 ~
 $ docker tag dockersamples/101-tutorial sumk/django-app:tagname
