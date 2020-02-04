@@ -85,8 +85,14 @@ Bunun için izleyeceğimiz adım çok basit:
 2.Yeni alanda, push edilen uygulamayı başlatmak için: 
 
 ~~~bash
- docker run-DP 3000: 3000 sumk/django-app
+ docker run-DP 3000: 3000 sumk/django-app:tagname
 ~~~
 
-3.Üstte port alanına 3000 linki gelektir. Buna tıklayarak değişiklikler ile uygulamanızı görmüş olacaksınız.
+3.Yeni alan içinde, Üstte port alanına 3000 linki gelecektir.
+Sizde bu aşamaya kadar hatasız geldiyseniz, yeni alanda da çalışan uygulamamız için atanan porta tıklayarak değişiklikler ile uygulamanızı görmüş olacaksınız.
 
+![HerAlandaCalisanUygulamam](/assets/img/heryerde-calisiyor.png)
+
+
+Bu bölümde, image'larımızı docker hub'a göndererek nasıl paylaşacağımızı öğrendim. 
+Daha sonra yepyeni bir new instance oluşturduk ve push edilen bu image2ın çalıştırabildiğini gördüm. eğer bu image'ı docker hub ile bir registry de tutmasaydık bu image'ımızı başka alanlarda çalıştıramayacaktık. sadece kendi alanımızda çalıştırabilecektik
