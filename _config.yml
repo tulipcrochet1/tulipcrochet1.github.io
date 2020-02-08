@@ -51,6 +51,8 @@ menu:
     url:               https://sumeyyekilic.github.io
   - title:             Yazılarım
     url:               /hydejack/
+  - title:             Gündelik
+    url:               /gundelik/
   - title:             Projelerim
     url:               /projelerim/
   - title:             Hakkımda

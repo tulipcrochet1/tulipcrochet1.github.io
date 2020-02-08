@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Hyde
-slug: hyde
+title: Tag
+slug: gundelik 
 menu: true
 order: 2
 description: >
