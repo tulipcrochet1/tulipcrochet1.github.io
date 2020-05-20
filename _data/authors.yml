@@ -23,7 +23,7 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         https://twitter.com/sumklc
+    #twitter:         https://twitter.com/sumklc
     github:          https://github.com/sumeyyekilic
     email:           smyyekilic@gmail.com
     # rss:             https://<url>/feed.xml
@@ -54,7 +54,7 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+    linkedin:          https://www.linkedin.com/in/s%C3%BCmeyye-kili%C3%A7-8338aaba/
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
