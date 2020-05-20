@@ -35,8 +35,8 @@ Gits Oluşturma
 ![gistdeneme](/assets/img/gistdeneme.png)
 
 - Gist bizlere kendi web sayfalarımızda renkli kodları otomatik olarak göstermeyi sunuyor.  Bunun için gits kodunuzun web url adresini alıp ;
-- <script src="https: //gist.github.com/sumeyyekilic/4b6162399a6c73e2a9fec7b84541b083.js"></script> 
-yazdığınızda kod bloğunu, bize embed kod olarak veriyor ve aşağıdaki gibi bize sunuyor.(yukardaki kodun çalışmaması adına http den sonra boşluk bıraktım) 
+- script bloğu arasına src="https: //gist.github.com/sumeyyekilic/4b6162399a6c73e2a9fec7b84541b083.js" 
+yazdığınızda kod bloğunu, bize embed kod olarak veriyor ve aşağıdaki gibi bize sunuyor.(yukardaki kodun çalışmaması adına https den sonra boşluk bıraktım) 
 
 <script src="https://gist.github.com/sumeyyekilic/4b6162399a6c73e2a9fec7b84541b083.js"></script>
 
