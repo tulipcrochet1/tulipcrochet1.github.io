@@ -34,12 +34,10 @@ Gits Oluşturma
 
 ![gistdeneme](/assets/img/gistdeneme.png)
 
-- Gits bizlere kendi web sayfalarımızda renkli kodları otomatik olarak göstermeyi sunuyor.  Bunun için gits kodunuzun web url adresini alıp ;
+- Gist bizlere kendi web sayfalarımızda renkli kodları otomatik olarak göstermeyi sunuyor.  Bunun için gits kodunuzun web url adresini alıp ;
 - https://gist.github.com/sumeyyekilic/4b6162399a6c73e2a9fec7b84541b083 yazdığınızda kod bloğunu, bize embed kod olarak veriyor ve aşağıdaki gibi bize sunuyor 🙂 
 
-https://gist.github.com/sumeyyekilic/4b6162399a6c73e2a9fec7b84541b083
-
-<script src="https://gist.github.com/sumeyyekilic/4b6162399a6c73e2a9fec7b84541b083"></script>
+<script src="https://gist.github.com/sumeyyekilic/4b6162399a6c73e2a9fec7b84541b083.js"></script>
 
 - Yukarda gördüğğünüz gibi github gist'e eklediğim kodu bir url ile embed kod verdi. Sadece bunu sağlamış olması bile çok büyük bir kolaylık. birçok farklı yerde kodumuzu bu şekilde kolayca başlarına aktarabiliriz ve kodun anlaşılabilirliği için bize kolaylık sağlar.
 
@@ -79,7 +77,7 @@ To https://gist.github.com/sumeyyekilic/4b6162399a6c73e2a9fec7b84541b083
    12a55cf..b5444e6  master -> master
 ~~~
 
-#### Gits Hizmetinin Kullanılan Alanları
+#### Gist Hizmetinin Kullanılan Alanları
 1. Anonim metin yazma
 2. Revisions ile değişiklikleri izleme
 Paylaştığımız bir kodun gist içeriğini düzenlediğimizde, gist'in önceki sürümleri de saklanır. Zamanla yaptığımız bu düzenlemelere ve iki versiyon arasındaki değişikliğe görsel olarak erişebileceğimiz revizyonlar sekmesi sunulmuştur.
@@ -96,7 +94,7 @@ Gist'iniz puclic ise herkes yapılacaklar listelerinizi görebilir ama görevler
 
 7.Web ayfalarınızda gits kod satırlarını gömebilirsiniz.
 
-8.Gits ile embed kod görüntülediğinizde hem paylaştığınız kod satırı ve dosya sözdizimini anlaşılır yapar. Hemde web sitenizi ziyaret edenler Gist linki ile Github hesaplarına kolayca klonlayabilirler..
+8.Gist ile embed kod görüntülediğinizde hem paylaştığınız kod satırı ve dosya sözdizimini anlaşılır yapar. Hemde web sitenizi ziyaret edenler Gist linki ile Github hesaplarına kolayca klonlayabilirler..
 `<script src = "https://gist.github.com/username/gist-id.js"> </script>
 `
 
