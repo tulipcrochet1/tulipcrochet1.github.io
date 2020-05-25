@@ -8,35 +8,46 @@ description: >
 
 ###  Foursquare APİ 
 
-Çeşitli türlerde bir mekanı arama, o mekanı keşfetme,  veya bir Foursquare kullanıcısını keşfetme, coğrafi bir yeri keşfetme ve bir konum etrafında ki trend mekanı bulma isteği için bir URL(int.te karşılı olan standart karakter dizisi) oluşturmalıdır.
+Çeşitli türlerde bir mekanı arama, o mekanı keşfetme,  veya bir Foursquare kullanıcısını keşfetme, coğrafi bir yeri keşfetme ve bir konum etrafında ki trend mekanı bulma isteği için bir URL(internette karşılığı olan standart karakter dizisi) oluşturmalıdır.
 
 Gelişitiricilere projelerinde güncel konum verilerini dahil ederek farklı projeler geliştirmeleri için Foursquare api araçlar sunmaktadır. 
 
-verileri kullanabilmemeiz için bazı gerekli kütüphaleri projemize dahil etmemiz lazım:
+Verileri kullanabilmemiz için bazı gerekli kütüphaleri projemize dahil etmemiz lazım:
 
  - request			(istekleri iletmek için gerekli kütüphane)  
  - geopy.geocoders       (bir adresi enlem ve boylam değerlerine dönüştürmek için)
  - pandas.io.json            (json verilerini panda veri çerçevesi kütüphanesi ile görselleştirme)
  
 **Foursquare Kimlik Bilgilerini ve Sürümünü Tanımla**
-Öncelikle şu linkten https://developer.foursquare.com/
- Foursquare geliştirici hesabı oluşturmanız için sizi yönlendirecektir. kayıt olduktan sonra sizin uygulamanıza özel kimlik bilgilerinizi elinizde bulunduracağınız uygulama oluşturmanızı sağlayacaktır.
+
+Öncelikle ![şu linkten](https://developer.foursquare.com/)
+
+Foursquare geliştirici hesabı oluşturmanız için sizi yönlendirecektir. k
+ayıt olduktan sonra sizin uygulamanıza özel kimlik bilgilerinizi elinizde bulunduracağınız uygulama oluşturmanızı sağlayacaktır.
  
-CLIENT_ID =  'Foursquare ID Değeri'
-CLIENT_SECRET =  'Foursquare Secret Değeri'
-VERSION =  '20191201'     #foursquare sürümü
+
+👉CLIENT_ID =  'Foursquare ID Değeri'
+
+👉CLIENT_SECRET =  'Foursquare Secret Değeri'
+
+👉VERSION =  '20191201'     #foursquare sürümü
+
 
 Olduğunuz konumda etrafınızda ki belirli kategori, belirli bir alan içindeki veya aratmak istenilen kelimelerin bulunduğu mekanları listeleyebilmektedir.
 
 Foursquare Mekan Kategori listesi belli bir hiyerarşide geliştiricilere sunulmuştur. Sizlerde dökümantasyonunda ![şu linkte](https://developer.foursquare.com/docs/build-with-foursquare/categories/)  görüntüleyebilir ve projelerinize belirtilen kurallar çerçevesinde dahil edebilirsinizz.
-Apı nedir yazımda anlattığım gibi Foursquare Api'ıda  bizlere biçimlendirilmiş bir JSON tipinde veri döndürür.
+
+![Apı nedir](https://sumeyyekilic.github.io/hydejack/2020-05-01-api-nedir/) yazımda anlattığım gibi Foursquare Api'ıda  bizlere biçimlendirilmiş bir JSON tipinde veri döndürür.
+
 Bunun için sorgulama türlerine ve kullanabileceğimiz parametrelerinin yordamlarına ![şu linkten](https://developer.foursquare.com/docs/api-reference/venues/search/) ulaşabilirsiniz.
 belirtilen url formatına uygul tanımladığımız url değişkenimizin sonuna istediğimiz türden parametre ekleyebiliriz.
+
 bu şekilde sorgumuzu http client sayesinde iletiriz. Foursquare api den bize dönen yanıtı istediğimiz parametreler ile özelleştirip sunabiliriz.
 
-Bir örnek üzerinden yelpazeyi açmaya çalışacağm..
+📍Bir örnek üzerinden yelpazeyi açmaya çalışacağm..
 
 Bir hastanenin enlem ve boylam koordinatlarına dönüştürme ile başladım: 
+
 Geocoder ile bir örnek tanımlamak için, bir user_agent tanımlamamız gerekir. Bunu foursquare_agent ile gösterdim:
 adres parametresine ise Göstepe araştırma hastanesinin adresini yazarak enlem ve boylam bilgilerini şu şekilde aldım :
  
@@ -90,7 +101,7 @@ sum@sumaray:~/Desktop/api$ python api12.py
 https://api.foursquare.com/v2/venues/search?client_id=PGBQWU3LLONODVNJ3DAOCU0WCO1UVCENQJ0M0W1FUYKJZQHB&client_secret=13WART3RQMCHJF3IUGKQXMP4DVW5ALUPVEFKNDX1J0NG0GXB&ll=40.9844887,29.0586383&v=20180604&query=Turkish&radius=500&limit=30
 ~~~
 
-BUradan aldığım url'yi sonuçları json türünden listelemek için kullanacağım.
+Buradan aldığım url'yi sonuçları json türünden listelemek için kullanacağım.
  
  #### 📝 Get isteği ile ilgili sonuçları getirme:
 results = requests.get(url).json()
