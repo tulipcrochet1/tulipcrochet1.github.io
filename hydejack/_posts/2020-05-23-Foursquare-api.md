@@ -75,7 +75,7 @@ print(enlem, boylam)
   istediğim şekilde enlem ve boylam parametrelerini bana getirdi.
 
 
-### 1. Belirli Bir Mekan Kategorisi için Arama:
+### **1. Belirli Bir Mekan Kategorisi için Arama:**
 
 `https://api.foursquare.com/v2/venues/)**search**?client_id=**CLIENT_ID**&client_secret=**CLIENT_SECRET**&ll=**LATITUDE**,**LONGITUDE**&v=**VERSION**&query=**QUERY**&radius=**RADIUS**&limit=**LIMIT**
 `
