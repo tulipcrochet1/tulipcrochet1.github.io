@@ -22,8 +22,8 @@ Verileri kullanabilmemiz için bazı gerekli kütüphaleri projemize dahil etmem
 
 Öncelikle [şu linkten](https://developer.foursquare.com/)
 
-Foursquare geliştirici hesabı oluşturmanız için sizi yönlendirecektir. k
-ayıt olduktan sonra sizin uygulamanıza özel kimlik bilgilerinizi elinizde bulunduracağınız uygulama oluşturmanızı sağlayacaktır.
+Foursquare geliştirici hesabı oluşturmanız için sizi yönlendirecektir. 
+Kayıt olduktan sonra sizin uygulamanıza özel kimlik bilgilerinizi elinizde bulunduracağınız uygulama oluşturmanızı sağlayacaktır.
  
 
 👉CLIENT_ID =  'Foursquare ID Değeri'
@@ -35,7 +35,7 @@ ayıt olduktan sonra sizin uygulamanıza özel kimlik bilgilerinizi elinizde bul
 
 Olduğunuz konumda etrafınızda ki belirli kategori, belirli bir alan içindeki veya aratmak istenilen kelimelerin bulunduğu mekanları listeleyebilmektedir.
 
-Foursquare Mekan Kategori listesi belli bir hiyerarşide geliştiricilere sunulmuştur. Sizlerde dökümantasyonunda ![şu linkte](https://developer.foursquare.com/docs/build-with-foursquare/categories/)  görüntüleyebilir ve projelerinize belirtilen kurallar çerçevesinde dahil edebilirsinizz.
+Foursquare Mekan Kategori listesi belli bir hiyerarşide geliştiricilere sunulmuştur. Sizlerde dökümantasyonunda [şu linkte](https://developer.foursquare.com/docs/build-with-foursquare/categories/)  görüntüleyebilir ve projelerinize belirtilen kurallar çerçevesinde dahil edebilirsinizz.
 
 [Apı nedir](https://sumeyyekilic.github.io/hydejack/2020-05-01-api-nedir/) yazımda anlattığım gibi Foursquare Api'ıda  bizlere biçimlendirilmiş bir JSON tipinde veri döndürür.
 
