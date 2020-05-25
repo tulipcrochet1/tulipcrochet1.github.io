@@ -1,6 +1,6 @@
 ---
 title: #3 Foursquare Api- Kullanıcı Keşfetme 📍
-image: /assets/img/blog/fApi3.png
+image: /assets/img/blog/fapi3.png
 
 description: >
 
@@ -63,8 +63,8 @@ dict_keys(['id', 'gender', 'homeCity', 'lists', 'friends', 'type', 'lenses', 'ti
 import requests
 import pandas as pd
 from pandas.io.json import json_normalize
-CLIENT_ID ='PGBQWU3LLONODVNJ3DAOCU0WCO1UVCENQJ0M0W1FUYKJZQHB'
-CLIENT_SECRET ='13WART3RQMCHJF3IUGKQXMP4DVW5ALUPVEFKNDX1J0NG0GXB'
+CLIENT_ID ='***********************'
+CLIENT_SECRET ='**************************'
 VERSION ='20180604'
 
 user_id = '97863500' #user id 'li kullanıcı kimliği değişkende tanımlanır
@@ -154,8 +154,8 @@ import requests
 
 import pandas as pd
 from pandas.io.json import json_normalize
-CLIENT_ID ='PGBQWU3LLONODVNJ3DAOCU0WCO1UVCENQJ0M0W1FUYKJZQHB'
-CLIENT_SECRET ='13WART3RQMCHJF3IUGKQXMP4DVW5ALUPVEFKNDX1J0NG0GXB'
+CLIENT_ID ='**************************'
+CLIENT_SECRET ='*************************'
 VERSION ='2019120'
 
 user_id = '97863500' #user id 'li kullanıcı kimliği değişkende tanımlanır
