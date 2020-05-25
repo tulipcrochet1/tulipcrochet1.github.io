@@ -108,17 +108,18 @@ url = 'https://api.foursquare.com/v2/venues/{}?client_id={}&client_secret={}&v={
 
 result = requests.get(url).json()
 ~~~~
- 
+
+output: 
 ~~~bash
 sum@sumaray:~/Desktop/api$ python api20.py
 
 6.5
 ~~~
   
-mekanın değerlendirmesi 6.5 çok iyi değerlendirme değil gibi.
-en yakın 2.başka mekan denersek:
+Mekanın değerlendirmesi 6.5 çok iyi değerlendirme değil gibi.
+En yakın 2.başka mekan denersek:
 
-1	Lezzet Durağı Ev Yemekleri  ...  4f4cb5d4e4b0b0a21387c252
+1	Lezzet Durağı Ev Yemekleri ... 4f4cb5d4e4b0b0a21387c252
 
 ~~~bash
 sum@sumaray:~/Desktop/api$ python api20.py
@@ -294,5 +295,5 @@ agreeCount text ... user.gender user.id
 [1 rows x 8 columns]
 ~~~
 
-🏹Buradan yapılan yorum ve yorumu yapan kullanıcının id bilgisi bide getirildi.
+🏹Buradan yapılan yorum ve yorumu yapan kullanıcının id bilgisi bize getirildi.
 bir sonraki yazımda bu id değerli kullanıcı üzerinden Foursquare api'de kullanıcı arama ve özellikeri ile çalışacağım.
