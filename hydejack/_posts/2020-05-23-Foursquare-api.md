@@ -37,9 +37,9 @@ Olduğunuz konumda etrafınızda ki belirli kategori, belirli bir alan içindeki
 
 Foursquare Mekan Kategori listesi belli bir hiyerarşide geliştiricilere sunulmuştur. Sizlerde dökümantasyonunda ![şu linkte](https://developer.foursquare.com/docs/build-with-foursquare/categories/)  görüntüleyebilir ve projelerinize belirtilen kurallar çerçevesinde dahil edebilirsinizz.
 
-![Apı nedir](https://sumeyyekilic.github.io/hydejack/2020-05-01-api-nedir/) yazımda anlattığım gibi Foursquare Api'ıda  bizlere biçimlendirilmiş bir JSON tipinde veri döndürür.
+[Apı nedir](https://sumeyyekilic.github.io/hydejack/2020-05-01-api-nedir/) yazımda anlattığım gibi Foursquare Api'ıda  bizlere biçimlendirilmiş bir JSON tipinde veri döndürür.
 
-Bunun için sorgulama türlerine ve kullanabileceğimiz parametrelerinin yordamlarına ![şu linkten](https://developer.foursquare.com/docs/api-reference/venues/search/) ulaşabilirsiniz.
+Bunun için sorgulama türlerine ve kullanabileceğimiz parametrelerinin yordamlarına [şu linkten](https://developer.foursquare.com/docs/api-reference/venues/search/) ulaşabilirsiniz.
 belirtilen url formatına uygul tanımladığımız url değişkenimizin sonuna istediğimiz türden parametre ekleyebiliriz.
 
 bu şekilde sorgumuzu http client sayesinde iletiriz. Foursquare api den bize dönen yanıtı istediğimiz parametreler ile özelleştirip sunabiliriz.
