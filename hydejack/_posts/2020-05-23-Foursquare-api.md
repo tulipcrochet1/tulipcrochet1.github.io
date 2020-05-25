@@ -77,17 +77,21 @@ print(enlem, boylam)
 
 ### 1. Belirli Bir Mekan Kategorisi için Arama:
 
-> https://api.foursquare.com/v2/venues/)**search**?client_id=**CLIENT_ID**&client_secret=**CLIENT_SECRET**&ll=**LATITUDE**,**LONGITUDE**&v=**VERSION**&query=**QUERY**&radius=**RADIUS**&limit=**LIMIT**
+`https://api.foursquare.com/v2/venues/)**search**?client_id=**CLIENT_ID**&client_secret=**CLIENT_SECRET**&ll=**LATITUDE**,**LONGITUDE**&v=**VERSION**&query=**QUERY**&radius=**RADIUS**&limit=**LIMIT**
+`
 
 
  📝🌟 **Hastaneye 500 metre mesafedeki türk yemek yerlerini aramak için bir sorgu tanımlayalım.**
 
 **#belirli bir mekan kategorisi arama**
+
 search_query='ev yemekleri'
+
 **#radius istenen yeri 10.000km ye kadar sınırlar**
+
 radius=500
 
-İlgili Url 'i tanınlama: Aşağıdaki inputta önceden tanımlanan yada hesaplanan lokasyon verilerine göre format metodu ile URL standardına atanır..
+İlgili Url'i tanınlama: Aşağıdaki inputta önceden tanımlanan yada hesaplanan lokasyon verilerine göre format metodu ile URL standardına atanır..
 
 ~~~bash 
 url = 'https://api.foursquare.com/v2/venues/search?client_id={}&client_secret={}&ll={},{}&v={}&query={}&radius={}&limit={}'
@@ -103,7 +107,8 @@ https://api.foursquare.com/v2/venues/search?client_id=PGBQWU3LLONODVNJ3DAOCU0WCO
 
 Buradan aldığım url'yi sonuçları json türünden listelemek için kullanacağım.
  
- #### 📝 Get isteği ile ilgili sonuçları getirme:
+ ### **📝 Get isteği ile ilgili sonuçları getirme:**
+ 
 results = requests.get(url).json()
 print(result)
 
