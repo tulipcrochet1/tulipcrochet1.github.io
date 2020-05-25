@@ -6,7 +6,7 @@ description: >
 
 ---
 
-### 3. Foursquare'de Kullanıcı Arama 🗺️
+**### 3. Foursquare'de Kullanıcı Arama 🗺️**
 
 > https://api.foursquare.com/v2/users/**USER_ID**?client_id=**CLIENT_ID**&client_secret=**CLIENT_SECRET**&v=**VERSION**
 

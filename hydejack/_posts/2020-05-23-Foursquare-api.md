@@ -8,7 +8,7 @@ description: >
 
 ###  Foursquare APİ 
 
-Çeşitli türlerde bir mekanı arama, o mekanı keşfetme,  veya bir Foursquare kullanıcısını keşfetme, coğrafi bir yeri keşfetme ve bir konum etrafında ki trend mekanı bulma isteği için bir URL(internette karşılığı olan standart karakter dizisi) oluşturmalıdır.
+Çeşitli türlerde bir mekanı arama, o mekanı keşfetme,  veya bir Foursquare kullanıcısını keşfetme, coğrafi bir yeri keşfetme ve bir konum etrafında ki trend mekanı bulma isteği için bir URL(internette karşılığı olan standart karakter dizisi) oluşturulmalıdır.
 
 Gelişitiricilere projelerinde güncel konum verilerini dahil ederek farklı projeler geliştirmeleri için Foursquare api araçlar sunmaktadır. 
 
