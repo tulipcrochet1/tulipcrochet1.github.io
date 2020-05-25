@@ -57,7 +57,7 @@ from geopy.geocoders import Nominatim
 CLIENT_ID ='******************'
 CLIENT_SECRET ='************************'
 
-VERSION ='20180604'
+VERSION ='20191201'
 adres = 'Eğitim Mahallesi Dr. Erkin Caddesi, Kadıköy, tr'
   
 
