@@ -1,6 +1,6 @@
 ---
 title: #1 Foursquare API 📍
-image: /assets/img/blog/fapi1s.png
+image: /assets/img/blog/4s.png
 
 description: >
 
