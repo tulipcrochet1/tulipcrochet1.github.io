@@ -1,6 +1,6 @@
 ---
 title: #2 Foursaure Api- Mekanı Keşfetme 
-image: /assets/img/blog/fapi2x.jpg
+image: /assets/img/blog/fapi2s.jpg
 
 description: >
 

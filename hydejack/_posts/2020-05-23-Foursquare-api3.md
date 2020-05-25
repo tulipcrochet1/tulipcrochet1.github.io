@@ -1,6 +1,6 @@
 ---
 title: #3 Foursquare Api- Kullanıcı Keşfetme 📍
-image: /assets/img/blog/fapi3s.png
+image: /assets/img/blog/fapis3.png
 
 description: >
 
