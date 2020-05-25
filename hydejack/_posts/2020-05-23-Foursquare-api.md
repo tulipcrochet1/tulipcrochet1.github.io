@@ -20,7 +20,7 @@ Verileri kullanabilmemiz için bazı gerekli kütüphaleri projemize dahil etmem
  
 **Foursquare Kimlik Bilgilerini ve Sürümünü Tanımla**
 
-Öncelikle ![şu linkten](https://developer.foursquare.com/)
+Öncelikle [şu linkten](https://developer.foursquare.com/)
 
 Foursquare geliştirici hesabı oluşturmanız için sizi yönlendirecektir. k
 ayıt olduktan sonra sizin uygulamanıza özel kimlik bilgilerinizi elinizde bulunduracağınız uygulama oluşturmanızı sağlayacaktır.
