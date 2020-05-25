@@ -8,9 +8,13 @@ description: >
 
 ### **3. Foursquare'de Kullanıcı Arama 🗺️**
 
+
+Bir kullanıcıya ait ilgli özellikleri görüntüleyebilmek için ; 
+
 > https://api.foursquare.com/v2/users/**USER_ID**?client_id=**CLIENT_ID**&client_secret=**CLIENT_SECRET**&v=**VERSION**
 
-Bir kullanıcıya ait ilgli özellikleri görüntüleyebilmek için yukardaki api url kullanılır . 
+api url'i kullanılır 
+
 Url bilgileri tanımlanır, Get isteği gönderilir.
 Kullanıcıya ait hangi tip özellikler görüntüleneceği bilgisi keys parametresi ile getirilir.
 
