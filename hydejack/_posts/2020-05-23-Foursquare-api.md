@@ -18,7 +18,7 @@ Verileri kullanabilmemiz için bazı gerekli kütüphaleri projemize dahil etmem
  - geopy.geocoders       (bir adresi enlem ve boylam değerlerine dönüştürmek için)
  - pandas.io.json            (json verilerini panda veri çerçevesi kütüphanesi ile görselleştirme)
  
-**Foursquare Kimlik Bilgilerini ve Sürümünü Tanımla**
+**📍 Foursquare Kimlik Bilgilerini ve Sürümünü Tanımla**
 
 Öncelikle [şu linkten](https://developer.foursquare.com/)
 
