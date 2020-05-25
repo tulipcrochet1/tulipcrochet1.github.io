@@ -10,10 +10,8 @@ Bu blogumda edindiğim deneyim, öğrenmekte olduğum konular, tecrübelerim do�
 **Bir konuda soru ve iş teklifleriniz için iletişim ;**
 - [Mail Adresim](smyyekilic@gmail.com)
 - [LinkedIn Adresim](https://www.linkedin.com/in/s%C3%BCmeyye-kili%C3%A7-8338aaba/)
-- [Github Adresim](https://github.com/sumeyyekilic)
-- [twitter Adresim](https://twitter.com/sumklc) 
 
-linklerinden bana ulaşın.
+linklerinden bana ulaşabilirsiniz.
 
 
 
