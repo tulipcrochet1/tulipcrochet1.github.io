@@ -54,8 +54,8 @@ adres parametresine ise Göstepe araştırma hastanesinin adresini yazarak enlem
 ~~~python
 from geopy.geocoders import Nominatim
 
-CLIENT_ID ='PGBQWU3LLONODVNJ3DAOCU0WCO1UVCENQJ0M0W1FUYKJZQHB'
-CLIENT_SECRET ='13WART3RQMCHJF3IUGKQXMP4DVW5ALUPVEFKNDX1J0NG0GXB'
+CLIENT_ID ='******************'
+CLIENT_SECRET ='************************'
 
 VERSION ='20180604'
 adres = 'Eğitim Mahallesi Dr. Erkin Caddesi, Kadıköy, tr'
@@ -113,8 +113,8 @@ Bu parametre ile bana ev yemekleri mekanlarını parametreler aracılığıyla g
 ~~~python
 import requests
 from geopy.geocoders import Nominatim
-CLIENT_ID ='PGBQWU3LLONODVNJ3DAOCU0WCO1UVCENQJ0M0W1FUYKJZQHB'
-CLIENT_SECRET ='13WART3RQMCHJF3IUGKQXMP4DVW5ALUPVEFKNDX1J0NG0GXB'
+CLIENT_ID ='*************************'
+CLIENT_SECRET ='**************************'
 VERSION ='20191201'
 LIMIT= 3
 adres = 'Eğitim Mahallesi Dr. Erkin Caddesi, Kadıköy, tr'
