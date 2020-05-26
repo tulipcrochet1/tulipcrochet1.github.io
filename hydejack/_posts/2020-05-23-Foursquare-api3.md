@@ -99,8 +99,7 @@ ev adresi: Istanbul, Istanbul
 {'count': 1}
 ~~~
 
-En başta kullanıyı dair aldığım parametre değerlerinden friends ile 
-Kullanıcının arkadaş listesini getirmek istersek : 
+En başta kullanıcıya dair aldığım parametre değerlerinden [friends] ile kullanıcının arkadaş listesini getirmek istersek : 
 
 ~~~python
 import requests
@@ -147,7 +146,7 @@ bio firstName gender ... photo.prefix photo.suffix tips.count
 [10 rows x 10 columns]
 ~~~
 
-panda.io.json ile kullanıcının arkadaşlarına dair bilgi alabildik.
+panda.io.json ile kullanıcının arkadaşlarına dair bilgi alabildik. Bunu `['friends']['groups'][0]['items']` hiyerarşisi ile yaptık.
 
 Kullanıcının profil resmi almak için:
 
@@ -200,12 +199,12 @@ sum@sumaray:~/Desktop/api$ python api30.py
 ~~~
 
 
-**#kullanıcı kaç tavsiye gönderdiği :**
+**#kullanıcının yaptığı yorum sayısına ulaşma:**
 
 print(user_data['tips'])
 
 
-**kulllanıcının (user_friends) arkadaş listesini getirme ????**
+**kulllanıcının (user_friends) arkadaş listesini getirme**
 
 user_friends = json_normalize(user_data['friends']['groups'][0]['items'])
 print(user_friends)
