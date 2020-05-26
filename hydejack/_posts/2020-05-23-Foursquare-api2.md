@@ -12,7 +12,7 @@ description: >
 > `https://api.foursquare.com/v2/venues/`**VENUE_ID**`?client_id=`**CLIENT_ID**`&client_secret=`**CLIENT_SECRET**`&v=`**VERSION**
 
 Bir önceki Foursquare Api yazı serimde istenilen bir konuma , istenilen türde en yakın mekanların isimleri ve id'lerini panda ile listelemiştik.
-Şimdi ise o mekanlardan istediğimiz üzerinden o mekanı tanımak için çeşitli parametreler üzerinde çalışmalar yapmaya başlayabilriz.
+Şimdi ise o mekanlardan istediğimiz üzerinden, o mekanı tanımak için çeşitli parametreler üzerinde çalışmalar yapmaya başlayabilriz.
  
 **venue_id=" keşfedilmek istenen en yakın mekanın id'si "**
 
@@ -37,8 +37,8 @@ Sonuçlar için GET isteği gönderilir:
     result['response']['venue']
 
 Bir önceki yazımda ki örnekte dataframe ile filtrelediğim mekan ve id listesinden
-**`0                Öznur Cafe Ev Yemekleri  ...  5061bb4ee4b0acb17101a45b**
-` 'nin hangi keys parametrelere sahip olduğunun hiyerarşisini ve keşfetmek için mekanın bilgilerini json türünde getirelim:
+**`0                Öznur Cafe Ev Yemekleri  ...  5061bb4ee4b0acb17101a45b
+`** 'nin hangi keys parametrelerine sahip olduğunun hiyerarşisini ve keşfetmek için mekanın bilgilerini json türünde getirelim:
 
 ~~~python
 import requests
@@ -79,9 +79,11 @@ dict_keys(['id', 'dislike', 'likes', 'ok', 'ratingSignals', 'reasons', 'createdA
 
 ### **2.B Mekanın Genel Puanı (Rating)  Alma**
 
-Yukarda gördüğünüz gibi bir mekana ait hangi parametreleri alacağımıza dair o mekana air anahtar değerleri gelmiştti.
+Yukarda gördüğünüz gibi bir mekana ait hangi parametreleri alacağımıza dair o mekana ait anahtar değerleri gelmişti.
+
 Sonuçlardan rating parametresi ile mekanın puanına erişilmektedir.
-Listelediğimiz ilk 5 ev yemekleri listesini birinci sırada ki ;
+
+- Listelediğimiz ilk 5 ev yemekleri listesini birinci sırada ki ;
 
 0                Öznur Cafe Ev Yemekleri  ...  5061bb4ee4b0acb17101a45b
 
@@ -117,7 +119,8 @@ sum@sumaray:~/Desktop/api$ python api20.py
 ~~~
   
 Mekanın değerlendirmesi 6.5 çok iyi değerlendirme değil gibi.
-En yakın 2.başka mekan denersek:
+
+- En yakın 2.başka mekan denersek:
 
 1	Lezzet Durağı Ev Yemekleri ... 4f4cb5d4e4b0b0a21387c252
 
@@ -127,7 +130,7 @@ sum@sumaray:~/Desktop/api$ python api20.py
 bu mekan değerlendirilmedi.
 ~~~
 
-En yakın 3.mekana bakarsak
+- En yakın 3.mekana bakarsak
 
 2             Palmiye Cafe Ev Yemekleri  ...  544b806f498e693acaf9cc90
 ~~~bash
@@ -138,14 +141,15 @@ sum@sumaray:~/Desktop/api$ python api20.py
 
 7.7 Puanı daha iyi, bu mekan üzerinden mekan tavsiyelerine bakalım.
 
-### **2. C İpuçlarının-Tavsiye(tips) Değerin Bulma**
+### **2.C İpuçlarının-Tavsiye(tips) Değerin Bulma**
 
 Bir mekanın tavsiye değerini sayısal olarak  ; 
 
-> result['response']['venue']['tips']['count']
-> 
-> print(result)
+~~~bash 
+result['response']['venue']['tips']['count']
 
+print(result)
+~~~
 şeklinde ulaşabiliyoruz.
 
 7.7 ratinge sahip Palmiye ev yemeklerine kaç yorum yapıldığın bakalım.
@@ -190,20 +194,20 @@ Bir mekanın tavsiye sayısını almıştık. Şİmdi ise bu yorumların iyi vey
 
 > https://api.foursquare.com/v2/venues/**VENUE_ID**/tips?client_id=**CLIENT_ID**&client_secret=**CLIENT_SECRET**&v=**VERSION**&limit=**LIMIT**
   
-BU şekilde url oluşturur ve get isteği gönderilir.
+Bu şekilde url oluşturur ve get isteği gönderilir.
 
 Tüm ipuçlarını almak için limit belirlenir
+~~~python
+#mekan tavsiye
+limit = 10  
+#limitin toplam ipucu sayısına eşit veya ondan daha büyük olması gerekir
+   
+url = 'https://api.foursquare.com/v2/venues/{}/tips?client_id={}&client_secret={}&v={}&limit={}'.format(venue_id, CLIENT_ID, CLIENT_SECRET, VERSION, limit)
+results = requests.get(url).json()
+results
+~~~
 
-    ##mekan tavsiye
-    limit = 10  
-    #limitin toplam ipucu sayısına eşit veya ondan daha büyük olması gerekir
-    
-    url = 'https://api.foursquare.com/v2/venues/{}/tips?client_id={}&client_secret={}&v={}&limit={}'.format(venue_id, CLIENT_ID, CLIENT_SECRET, VERSION, limit)
-    results = requests.get(url).json()
-    results
-
-
-Palmiye cafe ev yemeklerinin tavsiyelerini alalım:
+- Palmiye cafe ev yemeklerinin tavsiyelerini alalım:
 
 ~~~python
 
