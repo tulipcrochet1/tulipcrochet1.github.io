@@ -9,7 +9,8 @@ description: >
 
 ## Hikayeler Duygularımızı, Hayallerimiz Hikayelerimizi Belirler..
 
-Hikayeler hayatımızda hep bir yer edinmiştir. En azından benim öyle olduğu için, duygularımı ve hikayelerimi dünyaya hayatımın bu döneminde baktığım pencereden yazıyorum. Daha annemizden doğar ve bir hikayenin içine düşeriz. Büyürken bin bir türlü hikayelerle uyutulur , o hikayelerle büyür, o hikayelere inanırız. O hikayeler değerlerimizi oluşturur. Sizlerin de hayata tutunduğu hikayeleriniz vardır muhakkak. Şu an aklınıza gelmiyor. Yada siz hatırlamıyorsunuz. Bilinçli ve birde bilinçaltı hikayelerimiz var. Yoksa da şu an ben uydurdum. Genelde severim, bazı fikirlerim üzerine çok derin düşünmeyi. Hatta bazen öyle bir düşünürüm ki düşünmedik hiç bir ayrıntı kırıntısı dahi kalmasın isterim. Hakkını veririm anlayacağınız. Ama gelin görün ki düşündüklerim bundan hep bir haberdir.
+Hikayeler hayatımızda hep bir yer edinmiştir. 
+En azından bende öyle olduğu için, duygularımı ve hikayelerimi dünyaya hayatımın bu döneminde baktığım pencereden yazıyorum. Daha annemizden doğar ve bir hikayenin içine düşeriz. Büyürken bin bir türlü hikayelerle uyutulur , o hikayelerle büyür, o hikayelere inanırız. O hikayeler değerlerimizi oluşturur. Sizlerin de hayata tutunduğu hikayeleriniz vardır muhakkak. Şu an aklınıza gelmiyor. Yada siz hatırlamıyorsunuz. Bilinçli ve birde bilinçaltı hikayelerimiz var. Yoksa da şu an ben uydurdum. Genelde severim, bazı fikirlerim üzerine çok derin düşünmeyi. Hatta bazen öyle bir düşünürüm ki düşünmedik hiç bir ayrıntı kırıntısı dahi kalmasın isterim. Hakkını veririm anlayacağınız. Ama gelin görün ki düşündüklerim bundan hep bir haberdir.
 
 Fazlaca saçmaladığıma göre konuya gelebilirim: “Hikayeler Duygularımızı, Hayallerimiz Hikayelerimizi Belirler”. İki farklı paydaş var aslına bakarsanız bu cümlede. Yada kendimce doğru bulduğum değerim..
 
