@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Tag
-slug: Gundelik 
+title: Gündelik Yazılarım
+slug: gundelik 
 menu: true
 order: 2
 

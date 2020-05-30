@@ -1,9 +1,6 @@
 ---
-layout: list
+
 title: Hikayeler Duygularımızı, Hayallerimiz Hikayelerimizi Belirler..
-slug: Gundelik 
-menu: true
-order: 2
 image: /assets/img/blog/hayaller-hikayeler.png
 
 description: >
