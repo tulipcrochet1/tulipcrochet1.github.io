@@ -103,7 +103,9 @@ Bazen hangi senaryo gerçek bilemeyiz. Peki neden bizim en çok canımızı acı
 
 Bazen o kadar korkağız ki, hayal edemiyoruz. Hayalimiz kırılacak diye korkuyoruz. Hayalimiz ile hikayemizi yenilemek bizim elimizde. Hikayemizi değiştiren de hayallerin kendisi..❤️
 
-Duyguların kaptanı olup hayallerimize ve hikayelerimize yön verebilmek dileğiyle. Sevgiler
+Duyguların kaptanı olup hayallerimize ve hikayelerimize yön verebilmek dileğiyle. 
+
+Sevgiler
 
 ***
 _Bu yazım, [https://medium.com/@sumeyyekilic/](https://medium.com/@sumeyyekilic/hikayeler-duygular%C4%B1m%C4%B1z%C4%B1-hayallerimiz-hikayelerimizi-belirler-be3ccb8caf8) ' da 30 Mayıs 2020 tarihinde medium sayfamda yayınlanmıştır._
