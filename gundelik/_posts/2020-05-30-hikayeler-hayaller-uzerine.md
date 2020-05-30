@@ -12,9 +12,9 @@ description: >
 Hikayeler hayatımızda hep bir yer edinmiştir. 
 En azından bende öyle olduğu için, duygularımı ve hikayelerimi dünyaya hayatımın bu döneminde baktığım pencereden yazıyorum. Daha annemizden doğar ve bir hikayenin içine düşeriz. Büyürken bin bir türlü hikayelerle uyutulur , o hikayelerle büyür, o hikayelere inanırız. O hikayeler değerlerimizi oluşturur. Sizlerin de hayata tutunduğu hikayeleriniz vardır muhakkak. Şu an aklınıza gelmiyor. Yada siz hatırlamıyorsunuz. Bilinçli ve birde bilinçaltı hikayelerimiz var. Yoksa da şu an ben uydurdum. Genelde severim, bazı fikirlerim üzerine çok derin düşünmeyi. Hatta bazen öyle bir düşünürüm ki düşünmedik hiç bir ayrıntı kırıntısı dahi kalmasın isterim. Hakkını veririm anlayacağınız. Ama gelin görün ki düşündüklerim bundan hep bir haberdir.
 
-Fazlaca saçmaladığıma göre konuya gelebilirim: “Hikayeler Duygularımızı, Hayallerimiz Hikayelerimizi Belirler”. İki farklı paydaş var aslına bakarsanız bu cümlede. Yada kendimce doğru bulduğum değerim..
+Fazlaca saçmaladığıma göre konuya gelebilirim: **“Hikayeler Duygularımızı, Hayallerimiz Hikayelerimizi Belirler”**. İki farklı paydaş var aslına bakarsanız bu cümlede. Yada kendimce doğru bulduğum değerim..
 
-“hikayeler duygularımızı belirler” diye bir cümle vardı kafam da bir yerlerde uzun zamandır. Nerden duyduğuma dair bir iz yok.
+**“hikayeler duygularımızı belirler”** diye bir cümle vardı kafam da bir yerlerde uzun zamandır. Nerden duyduğuma dair bir iz yok.
 
 Şimdi düşünün ..
 
@@ -44,7 +44,7 @@ Bu 3 soru daha ile aydınlanma yaşadığınızı düşünüyorum. Şimdi şöyl
 
 💭Bu vücut kendi kararlarını allamıyor diyen var mı ?
 
-✔️Buna verilen tüm sağlıklı cevaplar aynıdır : YOK.
+✔️Buna verilen tüm sağlıklı cevaplar aynıdır : **YOK.**
 
 💭Peki öfkelenme kararını kim alıyor, sevgili okurum?
 
@@ -62,7 +62,7 @@ Ve bu tetikleyici olayım bazen şuna benziyor :
 
 ✔️Var tabi ki.
 
-Ve kablonun yılan olduğunu düşünürseniz ilk tepkinız ve duygunuz korkmak olur. Bi anda korkup geri çekilirsiniz.. Ama o kablo yılan olmadığı için gerçekte hissettiğiniz duygu “boşu boşuna”dır. Bunu sadece yılan kablo denkleminde değil de iki kişi arasında olan herhangi bir şeyinde zaman zaman kablo olduğu ama bunun yılan olarak algılandığı durumlarda çok fazla olabildiğini biliyorum. En azından buna yenik düşerek tecrübe edindim. Aslında herkesin boşu boşuna acı çektiği anlar bu anlar.
+Ve kablonun yılan olduğunu düşünürseniz ilk tepkinız ve duygunuz korkmak olur. Bi anda korkup geri çekilirsiniz.. Ama o kablo yılan olmadığı için gerçekte hissettiğiniz duygu **“boşu boşuna”**dır. Bunu sadece yılan kablo denkleminde değil de iki kişi arasında olan herhangi bir şeyinde zaman zaman kablo olduğu ama bunun yılan olarak algılandığı durumlarda çok fazla olabildiğini biliyorum. En azından buna yenik düşerek tecrübe edindim. Aslında herkesin boşu boşuna acı çektiği anlar bu anlar.
 
 Şunu demiyorum; “herkes sürekli keyifli duygular içinde olsun”. Bu değil mesele.. Üzülmemiz gerektiğinde üzülmemiz ama yılan varken. Korkmamız gerektiğinde korkmamız. Mutlu olamamız gerektiğinde mutlu , heyecanlı olmamız gerektiğinde heyecanlı..
 
@@ -74,23 +74,23 @@ Söylerken kolay ama bunun hikayesini yaşamış biriyseniz çok zor. Çünkü i
 
 Bu hayat çok kötü, hep üzüntü verdi hep acı verdi diyen insanlar tanıdım. Ona bile sorsanız, sana bir iyilik yapacağım ve bundan hiç bir duygu hissetmeyeceksin deseniz, o kişi bunu istemezdi tahminimce. Çünkü hepimizin yaşadığımızı düşünmeye , hissetmeye ihtiyacı var. Bu ortak paydamız. Hepimizin önemsendiğimizi ve önemsediğimizi hissetmeye ihtiyacımız var.
 
-Bütün o acı duyguların içerisinde bile insan bir an olsun keşke bu duygular olmasaydı diye düşünmüyo.. Ama o duygular yaşadığımızı hissettiriyor bize. Hem de öyle hissettiriyor ki.. 💫“Torunlarıma yetecek kadar acı çektiğimi hissediyorum” demiştim bir arkadaşıma. 📘 Sizde en zor anlarınızı düşünün, bir sese ihtiyacınız var ama yanınızda olmasını istemiyorsunuz. Yaşadığınız acıya sevdiğiniz birini o yılan yüzünden dahil etmiyorsunuz. An geliyor kimsenin yaşamadığı acının içinde buluyorsun kendini(maddi veya manevi). İhtiyacın olan o sesi duysan sapasağlam olacaksın, o acıyı yeneceksin. Ama o kişi sana “bak bu yılan değil” deme zahmetini bırak sesini bile çok görüyor. Ne olursa olsun çekilen acı sağlık veya her ne yüzündense, kimsenin bu sana müstahak anlayışını içime sindiremiyor ve geçte olsa pijamalarla bile kalkıp gidebilme kabiliyetime bir anlam veremiyorum. Kendime bunun için çiçek veriyorum🌹
+Bütün o acı duyguların içerisinde bile insan bir an olsun keşke bu duygular olmasaydı diye düşünmüyo.. Ama o duygular yaşadığımızı hissettiriyor bize. Hem de öyle hissettiriyor ki.. 💫“Torunlarıma yetecek kadar acı çektiğimi hissediyorum” demiştim bir arkadaşıma. 📘 Sizde en zor anlarınızı düşünün, bir sese ihtiyacınız var ama yanınızda olmasını istemiyorsunuz. **Yaşadığınız acıya sevdiğiniz birini o yılan yüzünden dahil etmiyorsunuz**. An geliyor kimsenin yaşamadığı acının içinde buluyorsun kendini(maddi veya manevi). İhtiyacın olan o sesi duysan sapasağlam olacaksın, o acıyı yeneceksin. Ama o kişi sana “bak bu yılan değil” deme zahmetini bırak sesini bile çok görüyor.
 
-Bütün bunların bir mekanizası varmış aslında.
+🌹 Bütün bunların bir mekanizası varmış aslında.
 
 Kafanızda bir radar sistemi düşünün sürekli ve devamlı olarak dönüyor. Bu devamlı dönen radar bilimselde otonom sinir sistemimiz. Ve döndükçe etrafta benim için iyi kötü ne var diye kontrol ediyor. Bunu ben uyurken bile yapıyor.
 
-Şarj kablosu ve yılan hikayeme dönüyorum.
+Şarj kablosu ve yılan hikayeme dönüyorum.✍️
 
 Radar sistemimiz bu şarj kablosunu görüyor ve onu yılana benzettiğinde benim zihnimdeki veritabanım bana şunu diyor : “bundan kaç kendini koru” diyor. Vücuduma fiziksel veya kimyasal değişimlerin olduğu hormonlar iletilir. Hormonlar vücuda girince dozajına göre 2 şey oluyor. miktarına göre ilki, sevgilinize kızgınlık düzeyiniz belli bir düzeye geldiyse o zaman bu hormonlar kontrolü sizin elinizden bırakmanızı sağlamıyor fakat belli bir düzeyi geçtiyse o noktada sanki bilgisayarınız çalışmış gibi zihinimi biri ele geçirmiş gibi bir hale geliyor.
 
-Bu hormonların ardından bizim kültürel yazılımlarımız devreye giriyor. Bu yaşımıza kadar o yazılıma nasıl bir hikaye yüklediğimizle ilgili.
+Bu hormonların ardından bizim kültürel yazılımlarımız devreye giriyor.🎯 Bu yaşımıza kadar o yazılıma nasıl bir hikaye yüklediğimizle ilgili.
 
 Aksiyonlar devreye girer. Mesela burda sinirlendiğiniz kişiye dönüp sırf sen gibi hissetsin diye kırıcı kelimeler edebilirsiniz. Buda bir aksiyon. Ya da sessiz kalmayı tercih edebilirsiniz buda bir aksiyondur. Her durumda aksiyonlar burda devreye girer.
 
 Burda ki mekanizma şarj kablosu yada yılana benzettiğimiz mekanizma, bizim zihnimizde tuttuğumuz hikayelerdir. Kendi kedimize koyduğumuz hikayeler. Bu hikayeler nedeniyle bir duygu yaşıyoruz. Bu hikaye bizim şarj kablosunu yılan olarak görmemizi sağlıyor. Şarj kablosu gerçekten yılan olabilir. Bu benzetmeyi yaparken kendi geçmişimiz , genetik geçmişmiz devreye giriyo. Şunu iyi anlamamız gerekiyor. bu senaryo gerçek mi ?
 
-Bazen hangi senaryo gerçek bilemeyiz. Peki neden bizim en çok canımızı acıtan senaryoyu seçiyoruz. Madem gerçeği bilmiyoruz( veya gördüğmüz ama teyit almadığımız kadarıyla yargılıyoruz). Neden bizim canımızı en çok acıtan senaryoyu seçiyoruz? Olasılığın çok yüksek olduğunu düşündüğümüz için.
+🎯Bazen hangi senaryo gerçek bilemeyiz. Peki neden bizim en çok canımızı acıtan senaryoyu seçiyoruz. Madem gerçeği bilmiyoruz( veya gördüğmüz ama teyit almadığımız kadarıyla yargılıyoruz). Neden bizim canımızı en çok acıtan senaryoyu seçiyoruz? Olasılığın çok yüksek olduğunu düşündüğümüz için.
 
 İnsanın kaç veya savaş reaksiyonu vermesini sağlayan bir beyni var. Ve bu beyin her zaman en kötü olasılığı düşünmek zorunda. En kötü olasılığı ön plana almak zorunda.
 
