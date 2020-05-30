@@ -1,6 +1,11 @@
 ---
+---
+layout: list
 title: Hikayeler Duygularımızı, Hayallerimiz Hikayelerimizi Belirler..
-image: /assets/img/blog/hikayeler-hayaller.png
+slug: Gundelik 
+menu: true
+order: 2
+image: /assets/img/blog/hayaller-hikayeler.png
 
 description: >
 
@@ -92,21 +97,13 @@ Bazen hangi senaryo gerçek bilemeyiz. Peki neden bizim en çok canımızı acı
 
 İnsanın kaç veya savaş reaksiyonu vermesini sağlayan bir beyni var. Ve bu beyin her zaman en kötü olasılığı düşünmek zorunda. En kötü olasılığı ön plana almak zorunda.
 
-💭 Neden ? çünkü tedbir almak için. Bizim yaşamımızı devam ettirebilmemiz için tedbir almamızı sağlıyor. Kaybetmeye kazanmaktan daha fazla odaklıyız. Bunu negatiflik olarak düşünmeyin. Kaç şavaş mekanizmasından dolayı. Ve ben bu mekanizmanın yine doğduğumuzdan bu yana gelen hikayemizden ötürü olduğunu düşünüyor ve yaşayarak tecrübe ediyorum. Bazen de kaybetmeye daha zor tahammülümüz var. Ve kaybetmeye daha zor tahammülüz olduğu için, benim mottom olan “en kötü olasılıktan” başlıyoruz.
+💭 Neden ? çünkü tedbir almak için. Bizim yaşamımızı devam ettirebilmemiz için tedbir almamızı sağlıyor. Kaybetmeye kazanmaktan daha fazla odaklıyız. Bunu negatiflik olarak düşünmeyin. Kaç şavaş mekanizmasından dolayı. Ve ben bu mekanizmanın yine doğduğumuzdan bu yana gelen hikayemizden ötürü olduğunu düşünüyor ve yaşayarak tecrübe ediyorum. Bazen de kaybetmeye daha zor tahammülümüz var. Ve kaybetmeye daha zor tahammülüz olduğu için, benim mottom olan **“en kötü olasılıktan”** başlıyoruz.
 
 Çok kötü, sinsi, özenti ve çıkarcı insanların olduğunu bilmeden önce bu insanlar neden kötülük yapıyor diye düşünürdüm. Ve yine çoğu insan kötülüğünü bir gülümsemenin arkasında çok güzel gizliyor ve tatlı dil ile size olabildiğince beyninizi yıkayıp kötülük yapıyor ne yazık ki.
 
 Bazen o kadar korkağız ki, hayal edemiyoruz. Hayalimiz kırılacak diye korkuyoruz. Hayalimiz ile hikayemizi yenilemek bizim elimizde. Hikayemizi değiştiren de hayallerin kendisi..❤️
 
-Son olarak aklıma winnie the pooh çizgfilm repliği geldi ; (winnie bir ayı, piglet ise domuz)
-
-Piglet soruyor: sabah kalktığında ilk ne düşünürsün.
-
-Winnie: kahvaltı diyor.. Ve oda piklete soruyor.
-
-Piglet ise beni heyecanlandıracak şeyi diyo.
-
-Winnie de “ee aynı şeyi düşünüyoruz o zaman” diyor..
+Duyguların kaptanı olup hayallerimize ve hikayelerimize yön verebilmek dileğiyle. Sevgiler
 
 ***
 _Bu yazım, [https://medium.com/@sumeyyekilic/](https://medium.com/@sumeyyekilic/hikayeler-duygular%C4%B1m%C4%B1z%C4%B1-hayallerimiz-hikayelerimizi-belirler-be3ccb8caf8) ' da 30 Mayıs 2020 tarihinde medium sayfamda yayınlanmıştır._
