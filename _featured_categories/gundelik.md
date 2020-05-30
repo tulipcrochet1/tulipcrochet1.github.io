@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Tag
-slug: gundelik 
+slug: Gundelik 
 menu: true
 order: 2
 
