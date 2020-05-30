@@ -1,5 +1,4 @@
 ---
----
 layout: list
 title: Hikayeler Duygularımızı, Hayallerimiz Hikayelerimizi Belirler..
 slug: Gundelik 
