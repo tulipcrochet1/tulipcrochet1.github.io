@@ -13,7 +13,7 @@ description: >
 
 Nasıl yani ❓
 
-Diyelim ki bir sorunumuz var, bu sorun için üretilmiş birde çözüm vardır. Bu sorun/problem birden fazla da olabilir. **Pattern** da burada devreye giriyor_._ **O soruna getirilen çözümün tekrar tekrar kullanılabilmesini sağlayan yapıdır**.
+Diyelim ki bir sorunumuz var, bu sorun için üretilmiş birde çözüm vardır. Bu sorun/problem birden fazla da olabilir. **Pattern** da burada devreye giriyor **O soruna getirilen çözümün tekrar tekrar kullanılabilmesini sağlayan yapı pattern'dır**.
 
 ⭐**“Design Pattern”** ise bir yazılım projesinde sürekli karşılaştığımız aynı veya benzer sorunlar üzerinden yola çıkarak kod optimizasyonunu en iyi şekilde yapabilmemizi sağlayan yapıdır.
 
@@ -25,7 +25,7 @@ Ortak problem ve ortak çözümlerimiz var.
 
 -   Ama kaç tane çözüm var ?
 
-Bir problemin sonsuz çözümü olabilir. “Hangisini kullanmalıyım ve hangisi benim sorunumu en iyi çözer” mottosuyla olan kalıplardan yararlanılırız. Ayrıca kendimiz de kalıp üretmeye çalışabiliriz. Ama öncelikle şunu bilin ki bu desing pattern’lar pek çok insanın ortak ihtiyacını çözebilecek yapıdadır. Ortak ihtiyacı çözebilecek yapı oluşturulurken her yeni projenin deneyiminden test edilip onaylanmış çözümler oluyor.
+Bir problemin sonsuz çözümü olabilir. “Hangisini kullanmalıyım ve hangisi benim sorunumu en iyi çözer” mottosuyla olan kalıplardan yararlanırız. Ayrıca kendimiz de kalıp üretmeye çalışabiliriz. Ama öncelikle şunu bilin ki bu desing pattern’lar pek çok insanın ortak ihtiyacını çözebilecek yapıdadır. Ortak ihtiyacı çözebilecek yapı oluşturulurken her yeni projenin deneyiminden test edilip onaylanmış çözümler oluyor.
 
 📌 **Desing Pattern Ortaya Çıkışı?**
 
@@ -43,19 +43,17 @@ Nesne yönelimli programlamanın; **kapsülleme, kalıtım, soyutlama, polimorfi
 
 Desing Pattern’ların ana mantığında şu yatıyor: Bu kullanacağımız kalıp türleri implementation üzerine değil interface üzerine kurulu kalıplardır. Hepsinin kendine ait bir yapısı var ama ortak bakarsanız hepsini bir araba gibi düşünebilirsiniz. Markasının önemi yoktur.
 
-Örneğin biz bir loglama yapmak istiyoruz ve hareketleri kayıt altında tutmak istiyoruz. Bir loglama sınıfımız olsun. İstediğimiz yerde bu sınıfın objelerini yaratıp kullanabilelim. Objeyi her new’lediğim yerde atama yapmak zorunda kalırsak, ilerde bu uygulamanın bakımını yapmak istediğimde işim çok zorlaşacak. Çünkü 5000 tane farklı farklı yerlerde sürekli aynı bağımlılığı oluşturduk. İlerde bunu tekrardan bi şekilde düzenlememiz, değiştirmemiz, çözmemiz gereken durumlar olacak. Bu sebeple çok kötü bir iş yoğunluğu ve karmaşası ile karşı karşıya olucaz. Aslında bu sorun için bir standart var. Logger objesini tek bir yerde tutup, ihtiyacımız olduğunda veritabanına yazıyorsak veya başka bir yere yazıyorsak, bunların hepsi tek bir yerde tutuluyor. Yani değiştirmek istediğimizi tek bir yerde tutuyoruz. Başka bir yerde logger objesine ihtiyaç kim duyarsa buradan gönderiyoruz. Bu şekilde tek bir yerde toplarsak işimiz kolaylaşıyor.
-
 Yazılım projelerine baktığınızda , yazılım ilerlediğinde aslında yazan kişiye karşı bir canavara dönüşüyor. Ve kendi oluşturduğunuz canavara yeniliyorsunuz :) Çünkü projeyi oluşturuken nerelerde değişikliği olacağını, ilersini düşünmediğinizde, sayfalarca yazdığınız proje canavara dönüşüp sizi ısırır. O yüzden yazılımın değişken noktalarının, ilerde bu yazılımı düzenlemeye çalıştığınızı düşünün. Bu yazılım büyüyüp bizim için projede düzenleme güncellemede sorun yaratıcaktır. Bu detayları bilerek , önceden bir plan oluşturursak o zaman rahat edicez. Şu şu kısımlar bizim için değişlik olmasına uygun yapı deyip bunları göz önünde ayrı bir yere tutarsak, sabit kısımları da ayrı tutarsak işimiz kolaylaşır. İşte **tasarım kalıpları** da bunu **çözüyor**.
 
 Desing pattern’ lar dilden bağımsızdırlar.
 
 ✅ Yapılarına göre tasarım kalıpları 3 tür kategori altında tutulur :
 
-## 1.Creational Patterns
+## **1.Creational Patterns**
 
 Bu kategoriye giren desing pattern tamamen nesne yaratmanın farklı yollarıyla ilgilidir. Yeni objelerin yaratılmasıyla ilgilenir.
 
-## 2. Structural Patterns
+## **2. Structural Patterns**
 
 Structural (yapısal) nesneler arasındaki ilişkilerle ilgili desing pattern’lar.
 
@@ -69,9 +67,9 @@ Objelerin birbiriyle mesajlaşmasını, birbirinden haber almasını sağlayan y
 
 ✅ Bu 3 kategori de kendi içinde şu pattern’lara ayrılır :
 
-![desingPatternCizimim](/assets/img/desingPattern.png)
+![desingPatternCizimim](/assets/img/blog/desingPattern.png)
 
-Fotoğrafta gördüğünüz 3 desing pattern kalıbı var. Bunlarda kendi içerisindeki bir sürü pattern bulundurmakta. Hepsi işlevi e amacına göre projelerde kullanılıyor. Bir başka blog yazımda bunları seri yapıp tek tek uygulama ile anlatmaya çalışacağım :)
+Fotoğrafta gördüğünüz 3 desing pattern kalıbı var. Bunlarda kendi içerisindeki bir sürü pattern bulundurmakta. Hepsi işlevi ve amacına göre projelerde kullanılıyor. Bir başka blog yazımda bunları seri yapıp tek tek uygulama ile anlatmaya çalışacağım :)
 
 📌 **Desing Pattern’ler Bize Ne Sağlar :**
 
@@ -92,6 +90,5 @@ Fotoğrafta gördüğünüz 3 desing pattern kalıbı var. Bunlarda kendi içeri
 -   Yazılımın tasarım kısmında yer alır.
 -   Analiz aşamasında da kullanılabilir. Esas olarak analizden sonra desing aşaması yani tasarım kısmıyla ilgilenirler. Desinger ‘ların ilgilendiği aşama.
 -   Yani bir programı nesne yönelimli bir ortamda tasarlarken nesneyle nasıl iletişim kuracağını tasarlarken kullanılan yapıdır.
-
 ---
 _Bu yazım, [https://medium.com/@sumeyyekilic/](https://medium.com/@sumeyyekilic/desi%CC%87ng-pattern-e85c89fd5075) ' da 7 Haziran 2020 tarihinde medium sayfamda yayınlanmıştır._
