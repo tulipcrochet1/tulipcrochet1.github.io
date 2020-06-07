@@ -69,7 +69,7 @@ Objelerin birbiriyle mesajlaşmasını, birbirinden haber almasını sağlayan y
 
 ![desingPatternCizimim](/assets/img/blog/desingPattern.png)
 
-Fotoğrafta gördüğünüz 3 desing pattern kalıbı var. Bunlarda kendi içerisindeki bir sürü pattern bulundurmakta. Hepsi işlevi ve amacına göre projelerde kullanılıyor. Bir başka blog yazımda bunları seri yapıp tek tek uygulama ile anlatmaya çalışacağım :)
+Fotoğrafta gördüğünüz gibi Desing Pattern'lar 3 temel kalıptan oluşmaktadır. Bunlarda kendi içerisindeki bir sürü pattern bulundurmakta. Hepsi işlevi ve amacına göre projelerde kullanılıyor. Bir başka blog yazımda bunları seri yapıp tek tek uygulama ile anlatmaya çalışacağım :)
 
 📌 **Desing Pattern’ler Bize Ne Sağlar :**
 
