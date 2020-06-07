@@ -84,11 +84,8 @@ Fotoğrafta gördüğünüz 3 desing pattern kalıbı var. Bunlarda kendi içeri
 
 -   **Gerçek hayatta ne işimize yarar?** Ortak dilde konuşabilmemizi sağlar. Problemler aynı , kullanılan dil aynı olunca tüm dünyada yazılımcılar aslında ortak bir dilde aynı dilde konuşmuş oluyor.
 -   Anlaşılabilir bir yapı sağlar. Desing patternlar ile işi bir prosedüre döküyoruz. Bir standarta döktüğümüzde daha anlaşılabilir oluyor(isimlendirme, yada ortak bir konuşma alanı)
--   Güncellenebilir bir yapı sağlar. niyet ettim tasarım kalıbı kullanmaya dediğimde, aslında yaptığım şey işi prosedüre dökmektir. Mesela projenn üzerine şunu yaparken, şu kalıbı takip ederek yap diyorum. Böyle olunca projeyi ortak bir iskelet üzerine oturtunca artık güncellemek daha kolay oluyor. Kendi canavarının ipini çekip biraz bağlamış oluyoruz ..
+-   Güncellenebilir bir yapı sağlar. Mesela, niyet ettim tasarım kalıbı kullanmaya dediğimde, aslında yaptığım şey işi prosedüre dökmektir. Projenin üzerine şunu yaparken, şu kalıbı takip ederek yap diyorum. Böyle olunca projeyi ortak bir iskelet üzerine oturtunca artık güncellemek daha kolay oluyor. Kendi canavarının ipini çekip biraz bağlamış oluyoruz ..
 -   Aynı programlama mantığının tekrar ettiğini göstermişti. Biz şayet bir problemi bir yerde çözdüysek bunu başka bir yerde de kullanabiliyoruz. bir yerde risk taşıyan yapılara başka yerde de dikkat edebiliyoruz.
 -   Bir programı tasarlarken nerelere dikkate edilmesi gerektiğini, bir problem ile karşılaşıldığında hangi pattern ile çözebileceğini önceki aksiyonlara bakarak daha hızlı, daha güvenilir üzerinde çalışılmış modeller üzerinden ilerletebiliyorlar.
--   Yazılımın tasarım kısmında yer alır.
--   Analiz aşamasında da kullanılabilir. Esas olarak analizden sonra desing aşaması yani tasarım kısmıyla ilgilenirler. Desinger ‘ların ilgilendiği aşama.
--   Yani bir programı nesne yönelimli bir ortamda tasarlarken nesneyle nasıl iletişim kuracağını tasarlarken kullanılan yapıdır.
----
+
 _Bu yazım, [https://medium.com/@sumeyyekilic/](https://medium.com/@sumeyyekilic/desi%CC%87ng-pattern-e85c89fd5075) ' da 7 Haziran 2020 tarihinde medium sayfamda yayınlanmıştır._
