@@ -1,5 +1,5 @@
 ---
-title: # CREDENTİONAL PATTERN: Singleton Desing Pattern
+title: #CREDENTİONAL PATTERN: Singleton Desing Pattern
 image: /assets/img/blog/singletonDesingPattern.png
 
 description: >
@@ -8,7 +8,7 @@ description: >
 
 ## SİNGLETON DESİNG PATTERN ?
 
-_> **Singleton Desing Pattern bir nesne örneğinden sadece bir defa üretilip , bu nesne örneğinin her zaman kullanılmasını söyleyen bir patterndir.**_
+_**Singleton Desing Pattern bir nesne örneğinden sadece bir defa üretilip , bu nesne örneğinin her zaman kullanılmasını söyleyen bir patterndir.**_
 
 -   Pattern bir önceki [**yazımda**](https://medium.com/@sumeyyekilic/desi%CC%87ng-pattern-e85c89fd5075?source=---------2------------------) açıkladığım gibi bir sorun, ve bu sorunun da çözümü demekti.
 
@@ -46,8 +46,7 @@ Elimde bir class var bundan sadece bir tane oluşturmak istediğimi düşünün.
 
 -   Singaleton adında bir class oluşturdum:
 
-<script src=”https://gist.github.com/sumeyyekilic/ebf063197acb2c3c9382796f219dcfeb.js"></script>
-
+<script src="https://gist.github.com/sumeyyekilic/ebf063197acb2c3c9382796f219dcfeb.js"></script>
 -   Yukarıda ki kodu incelerseniz ilk olarak Singleton.cs adında bir class oluşturup, içeride bunu private yaptım. Bunu yapmamda ki amaç başka bir class’ta new’lenmesinin önüne geçmek .
 
 -   Daha sonra CreateSingleton isminde oluşturduğum controller’e Singleton tipinde bir metot yazarak, sürekli aynı nesneyi döndürmeyi sağlıyorum.
