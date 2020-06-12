@@ -1,12 +1,12 @@
 ---
-title: #CREDENTİONAL PATTERN: Singleton Desing Pattern
+title: # CREDENTİONAL PATTERN: Singleton Desing Pattern
 image: /assets/img/blog/singletonDesingPattern.png
 
 description: >
 
 ---
 
-#### SİNGLETON DESİNG PATTERN ?
+## SİNGLETON DESİNG PATTERN ?
 
 _> **Singleton Desing Pattern bir nesne örneğinden sadece bir defa üretilip , bu nesne örneğinin her zaman kullanılmasını söyleyen bir patterndir.**_
 
@@ -45,6 +45,7 @@ Bir nesneden sadece bir tane oluşturmak istiyoruz. Bunun için gelin kafa yoral
 Elimde bir class var bundan sadece bir tane oluşturmak istediğimi düşünün.
 
 -   Singaleton adında bir class oluşturdum:
+
 <script src=”https://gist.github.com/sumeyyekilic/ebf063197acb2c3c9382796f219dcfeb.js"></script>
 
 -   Yukarıda ki kodu incelerseniz ilk olarak Singleton.cs adında bir class oluşturup, içeride bunu private yaptım. Bunu yapmamda ki amaç başka bir class’ta new’lenmesinin önüne geçmek .
