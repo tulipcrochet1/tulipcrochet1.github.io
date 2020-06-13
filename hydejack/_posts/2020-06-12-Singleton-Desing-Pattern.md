@@ -54,7 +54,7 @@ Elimde bir class var.Bundan sadece bir tane oluşturmak istediğimi düşünün.
 
 -   Öncelikle bu nesnenin private bir constructor ‘ını oluşturdum. Dışardan erişimi engelledim.
 
--   Singleton örneğini oluşturacak metodu yine bu classın içine yazdım. Oda static olarak yaılmalıdır. CreateSingleton nesnesi Singleton’ın kendisini döndürür.
+-   Singleton örneğini oluşturacak metodu yine bu classın içine yazdım. Oda static olarak yazılmalıdır. CreateSingleton nesnesi Singleton’ın kendisini döndürür.
 
 -   CreateSingleton() metodu ile singleton nesnesinden daha önce oluşturulmuş mu bunu kontrol edicez. Daha önce oluşturulmuş varsa onu vereceğiz. Eğer yoksa bir tane oluşturup onu döndüreceğiz.
 
@@ -64,13 +64,13 @@ Elimde bir class var.Bundan sadece bir tane oluşturmak istediğimi düşünün.
 
 -   Şimdi asıl önemli olan bu nesneye ihtiyaç duyduğumda kullanmam.  
     
-    Void main in içinde bu nesne new’lenemez. kodda gördüğünüz şekilde ürettim.
+    Void main in içinde bu nesne new’lenemez. Kodda gördüğünüz şekilde ürettim.
 
 -   Artık yapacağım işlemleri, main class’ında oluşturduğum nesne ile çağırıp kullanabileceğim.
 
--   Delete adında bir operasyon yazdım. Ve bu metodu main class’ı içerisinde oluşturduğum nesne ile erişebilip kullabilmeyi sağladım.
+-   Delete adında bir operasyon yazdım. Ve bu metodu main class’ı içerisinde oluşturduğum nesne ile erişebilip kullabilmesini sağladım.
 
--   Burada amacım temiz kod ile singleton desing pattern yazmayı göstermekti amacım.
+-   Burada amacım temiz kod ile singleton desing pattern yazmayı göstermekti.
 
 📊 Oluşturduğum kodun uml sınıf diyagramı ise şu şekildedir.
 
