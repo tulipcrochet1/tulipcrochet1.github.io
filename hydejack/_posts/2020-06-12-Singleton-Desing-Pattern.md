@@ -1,12 +1,12 @@
 ---
-title: #CREDENTİONAL PATTERN: 1.SİNGLETON DESİNG PATTERN
+title: #CREATİONAL PATTERN: 1.SİNGLETON DESİNG PATTERN
 image: /assets/img/blog/singletonDesingPattern.png
 
 description: >
 
 ---
 
-## #CREDENTİONAL PATTERN: 1.SİNGLETON DESİNG PATTERN ?
+## #CREATİONAL PATTERN: 1.SİNGLETON DESİNG PATTERN ?
 
 #### Singleton Desing Pattern Nedir?
 
@@ -14,7 +14,7 @@ _**Singleton Desing Pattern bir nesne örneğinden sadece bir defa üretilip , b
 
 -   Pattern bir önceki [**yazımda**](https://medium.com/@sumeyyekilic/desi%CC%87ng-pattern-e85c89fd5075?source=---------2------------------) açıkladığım gibi bir sorun, ve bu sorunun da çözümü demekti.
 
--   Singleton Pattern, Desing Pattern’ların 3 kategoriden ilki olan Credentional Pattern ‘ın çözümlerinden en çok kullanılan pattern’idir.
+-   Singleton Pattern, Desing Pattern’ların 3 kategoriden ilki olan Creational Pattern ‘ın çözümlerinden en çok kullanılan pattern’idir.
 
 -   Singleton “tekil” demektir. Yani ilgili nesneden bir tane olsun istiyorsak singleton kullanabiliriz.
 
