@@ -1,6 +1,6 @@
 ---
 title: #CREATİONAL PATTERN: 1.SİNGLETON DESİNG PATTERN
-image: /assets/img/blog/singletonDesingPattern.png
+image: /assets/img/blog/SingletonDesingPattern.png
 
 description: >
 
@@ -85,5 +85,3 @@ Sizinde bildiğiniz gibi artık bir şeyi yapmak kolay. Önemli olan neyi, nered
 Bir sonraki yazımda desing patternın kategorilerinden Creational Patterns 'ın diğer alt pattern'ları için bu serinin devamı olacaktır.
 
 _Bu yazım, [https://medium.com/@sumeyyekilic/](https://medium.com/@sumeyyekilic/si%CC%87ngleton-desi%CC%87ng-pattern-d26dae7acb3f) ' da 13 Haziran 2020 tarihinde medium sayfamda yayınlanmıştır._
-
-
