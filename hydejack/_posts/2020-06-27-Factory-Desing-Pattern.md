@@ -23,7 +23,7 @@ description: >
 
 > **Uyguladığım örnek koda bakalım;**
 
-<script src=”(https://gist.github.com/sumeyyekilic/0be860b57a86cc2405b401b8c15a5fa3.js)"></script> 
+<script src=”https://gist.github.com/sumeyyekilic/0be860b57a86cc2405b401b8c15a5fa3.js"></script> 
 
 -   ilk olarak “**IBisiklet**” adında bisikletler üreten bir product class’ı oluşturdum. Bunu interface olarak ürettim, baş harfinden de anlaşılacağı üzere :) Bu sınıf asıl ürünler için(concrete product’lar için) base class görevindedir. Factory metodun da geriye döndüreceği metot olacak. İçerisine de basit bir **Uret()** adında metot yazdım.
 
