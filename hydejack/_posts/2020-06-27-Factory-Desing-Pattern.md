@@ -5,7 +5,7 @@ image: /assets/img/blog/FactoryDesingPattern.png
 description: >
 
 ---
-## #CREATİONAL PATTERN: 2.FACTORY DESİNG PATTERN ?
+## #CREATİONAL PATTERN: 2.FACTORY DESİNG PATTERN🏭 ?
 
 **“Factory Desing Pattern”** günümüz desing pattern’ları arasında en çok kullanılan Creational Desing Pattern methodlarından birisidir.
 
