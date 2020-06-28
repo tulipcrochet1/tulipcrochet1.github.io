@@ -6,7 +6,7 @@ description: >
 
 ---
 
-## 1.SİNGLETON DESİNG PATTERN ?
+## SİNGLETON DESİNG PATTERN ? (#CREATİONAL PATTERN)
 
 #### Singleton Desing Pattern Nedir?
 
