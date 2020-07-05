@@ -60,7 +60,7 @@ Bir önceki [örneğimi](https://medium.com/@sumeyyekilic/factory-desi̇ng-patte
 
 Yukarıda ki gördüğünüz kod bloğunu çalıştırdığımda ise şu çıktıyı alarak sizlerle paylaşıyorum :
 
-![singletonDesingPattern](/assets/img/blog/AbstractFactoryDesingPattern3.png)
+![singletonDesingPattern](/assets/img/blog/AbstractFactoryDP3.png)
 
 **> 📌Avantaj :**
 
