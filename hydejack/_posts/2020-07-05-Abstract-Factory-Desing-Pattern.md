@@ -17,7 +17,7 @@ description: >
 
 **> _Abstract Factory_, tüm farklı ürünleri oluşturmak için bir interface veya abstract sınıf tanımlar. Gerçek ürün oluşturma işlemini concrete factory classına bırakır.**  
 
-**> Her fabrika tipi belirli bir ürün çeşidine karşılık gelir._**
+**> Her fabrika tipi belirli bir ürün çeşidine karşılık gelir.**
 
 **Görevi : Toplu nesne kullanım ihtiyaçlarında nesnenin kullanımını kolaylaştırmaktır.**
 
@@ -49,7 +49,7 @@ Yukarı da Abstruct Factory örneğim için çizdiğim uml diyagramında;
 
 -   Senaryoda istemcimiz kendi veya **Factory** yardımıyla üretmek istediği ürünün üreticisi olan fabrikanın tipini seçiyor. Mesela o anda **FabrikaA**’ya yönelik ürünler gerekiyorsa **FabrikaASipris** veya **FabrikaAUret** gibi ürünlerin aralarındaki ilişkilerin sağlayıcısı fabrika tipi neyse onu seçerek üretimi gerçekleştirmiş oluyor.
 
-Bir önceki [örneğimi](https://medium.com/@sumeyyekilic/factory-desi̇ng-pattern-ff4490aef46b) düşünürsek Dağ bisikletinin bir markada bile birçok modeli olabileceği ve bunların her biri için switch case yazıldığını düşünürsek oldukça karmaşık hale gelir. **Bunu çözmek için Abstruct factoru desing kalıbı çıkmıştır.**
+Bir önceki [örneğimi](https://medium.com/@sumeyyekilic/factory-desi̇ng-pattern-ff4490aef46b) düşünürsek Dağ bisikletinin bir markada bile birçok modeli olabileceği ve bunların her biri için switch case yazıldığını düşünürsek oldukça karmaşık hale gelir. **Bunu çözmek için Abstruct factory desing patternı çıkmıştır.**
 
 **> Yazdığım Kod üzerinden bakarsak :**
 
