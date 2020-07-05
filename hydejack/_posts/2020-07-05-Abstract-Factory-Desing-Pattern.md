@@ -5,7 +5,7 @@ image: /assets/img/blog/AbstractFactoryDesingPattern.png
 description: >
 
 ---
-## 3. ABSTRACT FACTORY DESİNG PATTERN ? 
+## 3.ABSTRACT FACTORY DESİNG PATTERN ? 
 
 **“Abstract Factory Desing Pattern”,** somut sınıflarını belirtmeden birbiriyle ilişkili tüm ürünleri oluşturma sorununu çözen bir **creational desing pattern** türüdür**.**
 
@@ -25,7 +25,7 @@ description: >
 
 -   İstemci kodu fabrikalarla ve ürünlerle yalnızca abstract interface’leri aracılığıyla çalışır. Bu, istemci kodunun fabrika nesnesi tarafından oluşturulan tüm ürün değişkenleriyle çalışmasını sağlar. Biz burada sadece yeni bir concrete factory sınıfı oluşturup bunu istemci koduna iletimini sağlayacağız.
 
-**> _📊 Çizdiğim U_ML diyagramı şu şekilde :**
+**> 📊 Çizdiğim UML diyagramı şu şekilde :**
 
 ![singletonDesingPattern](/assets/img/blog/AbstractFactoryDesingPattern2.png)
 
@@ -53,23 +53,26 @@ Bir önceki [örneğimi](https://medium.com/@sumeyyekilic/factory-desi̇ng-patte
 
 **> Yazdığım Kod üzerinden bakarsak :**
 
+
 <script src="https://gist.github.com/sumeyyekilic/bb0c13ee241044599ab0ffedbba2907d.js"></script>
 
-**> SONUÇ : Yukarıda ki gördüğünüz kod bloğunu çalıştırdığımda ise şu çıktıyı alarak sizlerle paylaşıyorum :**
+**> SONUÇ :**
+
+Yukarıda ki gördüğünüz kod bloğunu çalıştırdığımda ise şu çıktıyı alarak sizlerle paylaşıyorum :
 
 ![singletonDesingPattern](/assets/img/blog/AbstractFactoryDesingPattern3.png)
 
-**> _Avantaj :_**
+**> 📌Avantaj :**
 
 -   Birbiriyle ilişkili olan nesnelerin üretimini , fabrika olarak üstlenen tipler içerisinde istemciden soyutlamış oluyoruz.
 
 -   **SOLİD** prensiplerinden ;
 
-**  * Single Responsibility Principle**’ı destekler. Örneğin ürün oluşturma kodunu tek bir yere çıkararak kodun daha kolay desteklenmesini sağlayabilirsiniz.  
+**Single Responsibility Principle** ’ı destekler. Örneğin ürün oluşturma kodunu tek bir yere çıkararak kodun daha kolay desteklenmesini sağlayabilirsiniz.  
 
-** * Open/Closed Principle**’ ı destekler. Mevcut müşterinin istemci kodunu bozmadan yeni ürün çeşitlerini tanıtabilirsiniz.
+**Open/Closed Principle**’ ı destekler. Mevcut müşterinin istemci kodunu bozmadan yeni ürün çeşitlerini tanıtabilirsiniz.
 
-**> _Dezavantaj :_**
+**> 📌Dezavantaj :**
 
 -   Yeni ürünler eklenmek istediği zaman kodda müdahale etmemiz gerekiyor. mesela fabrika içine yeni bir connetion tip eklemek kolay çünkü türetmeyi yapıp kullanıyoruz. ama yeni bir durum ekleyip bu fabrikalar içinde ele almak istediğimizde sıkıntılar olabilir.
 
