@@ -27,7 +27,7 @@ Fakat geliştirme esnasında büyük projelerin geliştirilmesinde ve testinin y
 
 -   Katmanlarda kodları belli döngülerle yazmak yerine, ilgili üreticiye tak çıkar özelliği ile enjekte edilmesi ve ona göre başka bir nesnenin ortaya çıkması olarakta kullanılır.
 
-**> 📊 Çizdiğim U_ML diyagramı şu şekilde :**
+**>  📊 Çizdiğim UML diyagramı şu şekilde :**
 
 ![BUİLDERDesingPattern](/assets/img/blog/builderDesingPattern2.png)
 
