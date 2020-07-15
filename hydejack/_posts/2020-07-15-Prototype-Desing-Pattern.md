@@ -46,9 +46,9 @@ Yukarıda gördüğünüz üzere;
 
 -   Prototype tipini ben **abstract** olarak tasarladım. Fakat interface olarak da tasarlanabilir.
 
-**> Yazdığım Kod üzerinden bakarsak :_**
+**> Yazdığım Kod üzerinden bakarsak :**
 
-<script src=”https://gist.github.com/sumeyyekilic/c3df9efce4122e2362ccc8364e351272.js"></script>
+<script src="https://gist.github.com/sumeyyekilic/c3df9efce4122e2362ccc8364e351272.js"></script>
 
 📌Yukarı da gördüğünüz üzere yazdığım örnek kodda :
 
