@@ -59,6 +59,6 @@ Daha sonra istemcinin istediği **Kadro, Vites ve Marka** türüne göre bisikle
 
 -   Kod karmaşıklığı artabilir.
 
-_Bu yazım, [https://medium.com/@sumeyyekilic/](https://medium.com/@sumeyyekilic/4-bui%CC%87lder-desi%CC%87ng-pattern-782b103dd429) ' da 13 Temmuz 2020 tarihinde medium sayfamda yayınlanmıştır._
+_Bu yazım, [https://medium.com/@sumeyyekilic/](https://medium.com/@sumeyyekilic/4-bui%CC%87lder-desi%CC%87ng-pattern-782b103dd429) ' da 12 Temmuz 2020 tarihinde medium sayfamda yayınlanmıştır._
 
 ❤ Yazımı buraya kadar okuduğunuz için sevgiler❤
