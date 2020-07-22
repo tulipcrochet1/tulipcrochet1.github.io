@@ -12,9 +12,9 @@ Merhabalar,
 
 Bir ilham gelme hissiyle enstrümanımın başına geldim.
 
-💻 Tanıştırayım, fotoğrafını gördüğünüz enstrümanım ilk göz ağrım olur kendileri. Siz deyin hurda ama o benim için yerine yenisini verseler değişmeyeceğim bir birikim. Ona her baktığımda içim burkular. İnsan bunu kendine yapmaz tabi ki fakat.. O bir manevi değer. Her bir kuruşunu biriktirirken pek çok şeyden istifade ettiğim, ilk üniversite yılımda çalışıp kazandığım ve bursumdan bile artırdığım paramla alabilmiştim. (uzakta okumama rağmen… neyse bu konularla acıtasyon yapmaya gerek yok diyerek, öğrendiğim taş kalpliliği kendime hatırlatıyorum)
+💻 Tanıştırayım, fotoğrafını gördüğünüz enstrümanım ilk göz ağrım olur kendileri. Siz deyin hurda ama o benim için yerine yenisini verseler değişmeyeceğim bir birikim. Ona her baktığımda içim burkulur. İnsan bunu kendine yapmaz tabi ki fakat.. O bir manevi değer. Her bir kuruşunu biriktirirken pek çok şeyden istifade ettiğim, ilk üniversite yılımda çalışıp kazandığım ve bursumdan bile artırdığım paramla alabilmiştim. (uzakta okumama rağmen… neyse bu konularla acıtasyon yapmaya gerek yok diyerek, öğrendiğim taş kalpliliği kendime hatırlatıyorum)
 
-Şimdi düşünüyorum da şu an kazandığım tonla para onun tadını tutmuyor. Onun için parasız kalıp kimseden ödünç bile almadığım tek kuruşsuz fakülteden yurda gittiğim oldu. Buda biraz kendi ayakları üzerinde durman gerektiğini iliklerine kadar hissettiğim anlardan biriydi. Sığınacak onca kapın varken arkanda bir dağın olmaması, dışarıdan prenses gibi görünsem de, içimde uçurumun kenarına gelip kendi kanatlarıyla uçmayı öğrendiğim yıllardı. Ama bu dönüm noktasını yaşadığım yıllarda ailem fikirlerimi destekleyip bana sonsuz güvenmesiyle karalarımdan hep kendim sorumlu oldum. Yutkunurken boğazımda ki düğüm de o değişmeyen hislerimden biri.
+Şimdi düşünüyorum da şu an kazandığım tonla para onun tadını tutmuyor. Onun için parasız kalıp kimseden ödünç bile almadığım tek kuruşsuz fakülteden yurda gittiğim oldu. Buda biraz kendi ayakları üzerinde durmam gerektiğini iliklerine kadar hissettiğim anlardan biriydi. Sığınacak onca kapın varken arkanda bir dağın olmaması, dışarıdan prenses gibi görünsem de, içimde uçurumun kenarına gelip kendi kanatlarıyla uçmayı öğrendiğim yıllardı. Ama bu dönüm noktasını yaşadığım yıllarda ailem fikirlerimi destekleyip bana sonsuz güvenmesiyle kararlarımdan hep kendim sorumlu oldum. Yutkunurken boğazımda ki düğüm de o değişmeyen hislerimden biri.
 
 Bazen bir kor gerekir.
 
@@ -40,9 +40,11 @@ Nası anlatsam,
 
 Bence bilinçaltı da o eksik kelime veya cümlededir.. Onu bitirmemiz için karşımıza hep çıkartır. Ben onları hep ihmal ettim.
 
-İnsan neden sevdiği şeyleri ihmal eder sahi ? Neden sonuna kadar arkasında durmaz. Neden sahiplenmez. Neden hep kolaya kaçar?
+İnsan neden sevdiği şeyleri ihmal eder sahi ?
 
-Sanırım sevdiğim şeylere yetemedim. Ama gerektiğinde çok şeyi karşıma aldım..Hayatla başa çıkarken insan “sevdiği” şeylere dair geçte kalabiliyor.
+Bazıları neden sonuna kadar arkamızda durmaz? Neden sahiplenmez. Neden hep kolaya kaçar?
+
+Sanırım sevdiğim şeylere yetemedim.Ama gerektiğinde çok şeyi karşıma aldım.. Hayatın yükünü bu kadar eken alıp sadece sevdiğim şeyleri ihmal ettim. Hayatla başa çıkarken insan “sevdiği” şeylere dair geçte kalabiliyor. 
 
 👩‍💻 Saatler 21:10, bu günlük paylaşabileceğim bu umarım bir sonraki sefere o ilham güzel şeyler yazdırır ..
 
