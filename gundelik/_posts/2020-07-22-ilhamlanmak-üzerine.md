@@ -18,7 +18,7 @@ Bir ilham gelme hissiyle enstrümanımın başına geldim.
 
 Bazen bir kor gerekir.
 
-Bir ateş birden bire alevlenmez. Önce ateş yandı gibi olur, ve söndü sanırsınız. Aslında közün yeniden alevlenmesini beklemek sabır gerektirir. Emek gerektirir. Ve yandığını gördüğünüzde tüm emeğiniz , alın teriniz bir tebessümle hafifler ya hani.. İşte tatmayan, bilmeyen insanlara üzülüyorum. Hep babasının prensesi /prensi olmuş. En ufak zorlukta kabuğuna çekilen, direnmeyen, ufak da olsa ayakları üzerinde durması gerekince hep bir başkalarına yıkılmayı marifet bilen prensesler.. Elbet bir gün hep birilerinin prensesi olarak hayatını idam ettirip , kendi gibi bireyler yetiştirip toplumları buna mahkum edecekler.
+Bir ateş birden bire alevlenmez. Önce ateş yandı gibi olur, ve söndü sanırsınız. Aslında közün yeniden alevlenmesini beklemek sabır gerektirir. Emek gerektirir. Ve yandığını gördüğünüzde tüm emeğiniz , alın teriniz bir tebessümle hafifler ya hani.. İşte bunu tatmayan, bilmeyen insanlara üzülüyorum. Hep babasının prensesi /prensi olmuş. En ufak zorlukta kabuğuna çekilen, direnmeyen, ufak da olsa ayakları üzerinde durması gerekince hep bir başkalarına yıkılmayı marifet bilen prensesler.. Elbet bir gün hep birilerinin prensesi olarak hayatını idam ettirip , kendi gibi bireyler yetiştirip toplumları buna mahkum edecekler.
 
 Demem o ki bazı şeyler eskise de, hurdaya da çıksa onu yaşatabilmek. Can vermek. Bir kenara atıp unutulmaya mahkum etmemek.
 
@@ -26,9 +26,9 @@ Bunlar hep, onun manevi değeri varsa oluyor.
 
 Benim şu an bu satırları yazdığım enstrümanım gibi. Bazı şeylerin yerine ne gelirse gelsin değişmemeyi bilmek gerek.
 
-Düşünün bu sadece yüklediğim bir “cisme” verdiğim manevi değer.. İnsanların nasıl ömrü varsa eşyalarında öyle.
+Düşünün bu sadece bir “cisme” yüklediğim manevi değer.. İnsanların nasıl ömrü varsa eşyalarında öyle.
 
-Zorlu yokuşları onula çıkmıştım. Mesleğimde en güzel şeyleri inşa etmemde, bu verdiğim emek karşısında aldığım karşılık da bana çok şey kattı. Şimdi onu bir kenara atamıyorum. En iyi macbook alacak kazancım olmasına rağmen onun yerini tutmayacak.
+Zorlu yokuşları onula çıkmıştım. Mesleğimde en güzel şeyleri inşa etmemde(ediyor olmamda), bu verdiğim emek karşısında aldığım karşılık da bana çok şey kattı. Şimdi onu bir kenara atamıyorum. En iyi macbook alacak kazancım olmasına rağmen onun yerini tutmayacak.
 
 Ve hep bloglarımı ömrü yettiğince ve benim de ömrüm yettiğince enstrümanımdan yazıyor olacağım :)
 
