@@ -1,5 +1,5 @@
 ---
-title: Hikayeler Duygularımızı, Hayallerimiz Hikayelerimizi Belirler..
+title:BİR PARÇA İLHAM
 image: /assets/img/blog/sumklc-ilham.jpg
 
 description: > 
