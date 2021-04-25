@@ -59,8 +59,8 @@ menu:
     url:               /about/
   - title:             Show
     url:               /show/
-# - title:             Açık Kaynak Projelerim
-#   url:               /docs/
+  - title:             Açık Kaynak Projelerim
+    url:               /docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
