@@ -57,6 +57,8 @@ menu:
     url:               /projelerim/
   - title:             Hakkımda
     url:               /about/
+  - title:             Show
+    url:               /show/
 # - title:             Açık Kaynak Projelerim
 #   url:               /docs/
 
