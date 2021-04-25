@@ -1,14 +1,15 @@
 ---
+layout: page
 title: Hikayeler Duygularımızı, Hayallerimiz Hikayelerimizi Belirler..
 image: /assets/img/blog/hayaller-hikayeler.png
 
-description: > 
+description: >
 
 ---
 
 ## Hikayeler Duygularımızı, Hayallerimiz Hikayelerimizi Belirler..
 
-Hikayeler hayatımızda hep bir yer edinmiştir. 
+Hikayeler hayatımızda hep bir yer edinmiştir.
 
 En azından bende öyle olduğu için, duygularımı ve hikayelerimi dünyaya hayatımın bu döneminde baktığım pencereden yazıyorum. Daha annemizden doğar ve bir hikayenin içine düşeriz. Büyürken bin bir türlü hikayelerle uyutulur , o hikayelerle büyür, o hikayelere inanırız. O hikayeler değerlerimizi oluşturur. Sizlerin de hayata tutunduğu hikayeleriniz vardır muhakkak. Şu an aklınıza gelmiyor. Yada siz hatırlamıyorsunuz. Bilinçli ve birde bilinçaltı hikayelerimiz var. Yoksa da şu an ben uydurdum. Genelde severim, bazı fikirlerim üzerine çok derin düşünmeyi. Hatta bazen öyle bir düşünürüm ki düşünmedik hiç bir ayrıntı kırıntısı dahi kalmasın isterim. Hakkını veririm anlayacağınız. Ama gelin görün ki düşündüklerim bundan hep bir haberdir.
 
@@ -100,7 +101,7 @@ Burda ki mekanizma şarj kablosu yada yılana benzettiğimiz mekanizma, bizim zi
 
 Bazen o kadar korkağız ki, hayal edemiyoruz. Hayalimiz kırılacak diye korkuyoruz. Hayalimiz ile hikayemizi yenilemek bizim elimizde. Hikayemizi değiştiren de hayallerin kendisi..❤️
 
-Duyguların kaptanı olup hayallerimize ve hikayelerimize yön verebilmek dileğiyle. 
+Duyguların kaptanı olup hayallerimize ve hikayelerimize yön verebilmek dileğiyle.
 
 Sevgiler
 
