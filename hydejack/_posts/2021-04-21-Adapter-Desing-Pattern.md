@@ -82,3 +82,5 @@ Var olan bir class ‘ımın mevcut intreface’i olsun ve birde uygulamamı tan
 -   Bir takım interface ve class oluşturmamız gerektiğinden, kodun genel karmaşıklığı artar. Bu yüzden, kodunuzun geri kalanıyla match ederek servis sınıfını değiştirmek daha kolaydır.
 
 ❤ Yazımı buraya kadar okuduğunuz için sevgiler❤
+
+Bu yazım, https://medium.com/@sumeyyekilic/ medium sayfamda yayınlanmıştır..
