@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: page
 title: Gündelik Yazılarım
 slug: gundelik
 menu: true
