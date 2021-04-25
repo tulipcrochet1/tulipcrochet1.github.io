@@ -84,4 +84,4 @@ Var olan bir class ‘ımın mevcut intreface’i olsun ve birde uygulamamı tan
 ❤ Yazımı buraya kadar okuduğunuz için sevgiler❤
 
 
-Bu yazım, https://medium.com/@sumeyyekilic/ medium sayfamda yayınlanmıştır.
+Bu yazım, https://medium.com/@sumeyyekilic/ medium sayfamda yayınlanmıştır..
