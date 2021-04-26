@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: page
 title: Hikayeler Duygularımızı, Hayallerimiz Hikayelerimizi Belirler..
-image: /assets/img/blog/hayaller-hikayeler.png
-
 description: >
+  Hikayeler hayatımızda hep bir yer edinmiştir.
 
+En azından bende öyle olduğu için, duygularımı ve hikayelerimi dünyaya hayatımın bu döneminde baktığım pencereden yazıyorum.
+hide_description: true
 ---
 
 ## Hikayeler Duygularımızı, Hayallerimiz Hikayelerimizi Belirler..
@@ -107,4 +108,3 @@ Sevgiler
 
 ***
 _Bu yazım, [https://medium.com/@sumeyyekilic/](https://medium.com/@sumeyyekilic/hikayeler-duygular%C4%B1m%C4%B1z%C4%B1-hayallerimiz-hikayelerimizi-belirler-be3ccb8caf8) ' da 30 Mayıs 2020 tarihinde medium sayfamda yayınlanmıştır._
-

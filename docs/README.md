@@ -1,10 +1,10 @@
 ---
-title: Projelerim 
+title: Gündelik
 description: >
    
 ---
 
 
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
+* [2020-05-30-hikayeler-hayaller-uzerine]{:.heading.flip-title} --- 2020-05-30-hikayeler-hayaller-uzerine
 
-[install]: install.md
+[2020-05-30-hikayeler-hayaller-uzerine]: 2020-05-30-hikayeler-hayaller-uzerine.md
