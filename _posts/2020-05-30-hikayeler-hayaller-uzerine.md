@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Hikayeler Duygularımızı, Hayallerimiz Hikayelerimizi Belirler..
 image: /assets/img/blog/hayaller-hikayeler.png
 
