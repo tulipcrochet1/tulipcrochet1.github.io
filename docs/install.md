@@ -12,11 +12,6 @@ There are multiple ways of installing Hydejack.
 The easiest and cleanest way is [via the Starter Kit](#via-starter-kit).
 
 
-## Table of Contents
-{:.no_toc}
-0. this unordered seed list will be replaced by toc as unordered list
-{:toc}
-
 ## Via Starter Kit
 Using the Starter Kit has the advantage of not cluttering your blog repository.
 Additionally, it allows you to publish your site on GitHub Pages with a single `push`.
