@@ -1,6 +1,10 @@
 ---
 layout: page
-title: gundelik
+title: Gündelik Yazılarım
+slug: gundelik
+menu: true
+order: 2
+
 ---
 
 <ul>
