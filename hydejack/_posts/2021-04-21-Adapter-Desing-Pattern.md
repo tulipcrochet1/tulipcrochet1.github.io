@@ -66,8 +66,8 @@ Var olan bir class ‘ımın mevcut intreface’i olsun ve birde uygulamamı tan
 📌 Yukarı da gördüğünüz üzere yazdığım örnek kodda :
 
 -   **_Client_** : “**Customer Repository”**; Kurduğum yapıyı kullanmak isteyen istemcidir.
--   **_ITArget_** : “I**CacheManager**” ;kurduğum veya dışardan kulanacağım cache’lemede olmasını istediğim ve bunun için tasarladığım interface’dir.adapter
--   **_Adaptee_** : “**CachingDecorator”** ; kurduğum yapının tanımadığı ve dışında olan uygulamama adapte edeceğim class’dır. CachingDecorator classıı içerisinde, kullanıcıya ayda sağlayacak türde cacheleme property’leri olabilir.class
+-   **_ITArget_** : “I**CacheManager**” ;kurduğum veya dışardan kulanacağım cache’lemede olmasını istediğim ve bunun için tasarladığım interface’dir.
+-   **_Adaptee_** : “**CachingDecorator”** ; kurduğum yapının tanımadığı ve dışında olan uygulamama adapte edeceğim class’dır. CachingDecorator classıı içerisinde, kullanıcıya ayda sağlayacak türde cacheleme property’leri olabilir.
 -   **_Adapter_** : “**CacheDecoratorAdaptor”** adapteri ise ; CachingDecorator adaptee ‘i içerisinde ki yöntemleri (caching decorator ün kendisini) , mevcut yapıma adapte ederek kullanmamı sağlar. BUrada adapter class’ımıza, ICache manager’i implemente ediyoruz.
 -   **_SKCache_** : Kendi projeme özgü bir cache ihtiyacı içi oluşturduğum cacheleme yöntemidir. ITArget(ICacheMAnager) ın tanımadığı özellikleri bu sınıfta implemente etmek zorundayız.
 -   Burada ki kod, birlikte çalışabilmeleri için bir sınıfın arayüzünü diğerine map’leyen Adapter pattern’ı gösterir. Bu birbirini tanımayan class’lar farklı kütüphane veya frameworklerden oluşabilir..
