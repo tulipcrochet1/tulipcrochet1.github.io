@@ -1,13 +1,13 @@
 ---
-title: #CREATİONAL PATTERN: 4.BUİLDER DESİNG PATTERN
+title: #CREATİONAL PATTERN: 4.BUİLDER DESİGN PATTERN
 image: /assets/img/blog/builderDesingPattern.png
 
 description: >
 
 ---
-## 4.BUİLDER DESİNG PATTERN ? 
+## 4.BUİLDER DESİGN PATTERN ?
 
-**“Builder”**, adım adım bir yaklaşım kullanarak basit nesnelerden karmaşık bir nesne oluşturmak için kullanılan bir **creational desing pattern**’idir.
+**“Builder”**, adım adım bir yaklaşım kullanarak basit nesnelerden karmaşık bir nesne oluşturmak için kullanılan bir **creational design pattern**’idir.
 
 -   Kelime anlamı “**oluşturucu**” demektir. İsminden de anlaşıldığı gibi ortaya bir nesne oluşturmayı hedefler.
 
@@ -21,15 +21,14 @@ Fakat geliştirme esnasında büyük projelerin geliştirilmesinde ve testinin y
 
 -   Diğer creational desenlerden farkı: Builder , ürünlerin ortak bir arayüze sahip olmasını gerektirmez. Böyle bir kısıtlama içerisine bizi sokmuyor. Buda aynı yapım sürecini kullanarak birden fazla farklı ürünler üretmemizi sağlar.
 
--   Önceki creational tasarım kalıplarında anlattığım bisiklet üzerinden örnek verirsem: Bir bisikletimiz olsun istiyoruz ve bunun Dağ, yarış veya gezi bisikleti olduğunu seçebiliyorduk. Fakat bir dağ bisikleti sipariş verirken size özel özellikleri olan ve birde daha dayanıklı bir dağ bisikleti üretilmesini istiyorsanız gezi bisikleti size uygun olmaz. Bu durumda özel üretim yapan bir üretici bulmanız ve ona istediğiniz özellikleri belirtmeniz gerekir. Çünkü istenilen özelliklerde kadrosunun çelik olması rengi markası ayrıca ek özellikler ile daha spesifik bir üretim oluşacaktır. İşte burada devreye **builder desing patternı** yardımımıza koşuyor diyebilirim. Builder oluşturduğumuz nesnelerin instancelarını özelleştirmek istediğimizde kullanabiliriz.
+-   Önceki creational tasarım kalıplarında anlattığım bisiklet üzerinden örnek verirsem: Bir bisikletimiz olsun istiyoruz ve bunun Dağ, yarış veya gezi bisikleti olduğunu seçebiliyorduk. Fakat bir dağ bisikleti sipariş verirken size özel özellikleri olan ve birde daha dayanıklı bir dağ bisikleti üretilmesini istiyorsanız gezi bisikleti size uygun olmaz. Bu durumda özel üretim yapan bir üretici bulmanız ve ona istediğiniz özellikleri belirtmeniz gerekir. Çünkü istenilen özelliklerde kadrosunun çelik olması rengi markası ayrıca ek özellikler ile daha spesifik bir üretim oluşacaktır. İşte burada devreye **builder design patternı** yardımımıza koşuyor diyebilirim. Builder oluşturduğumuz nesnelerin instancelarını özelleştirmek istediğimizde kullanabiliriz.
 
 -   Karmaşık bir nesnenin yapımını basitleştirmek gerektiği durumlarda kullanılır.
 
 -   Katmanlarda kodları belli döngülerle yazmak yerine, ilgili üreticiye tak çıkar özelliği ile enjekte edilmesi ve ona göre başka bir nesnenin ortaya çıkması olarakta kullanılır.
 
-**>  📊 Çizdiğim UML diyagramı şu şekilde :**
-
-![BUİLDERDesingPattern](/assets/img/blog/builderDesingPattern2.png)
+**> 📊 Çizdiğim UML diyagramı şu şekilde :**
+![BUİLDERDesignPattern](/assets/img/blog/builderDesingPattern2.png)
 
 **> Yazdığım Kod üzerinden bakarsak :**
 
@@ -43,7 +42,7 @@ Daha sonra istemcinin istediği **Kadro, Vites ve Marka** türüne göre bisikle
 
 **> SONUÇ :** Yukarıda ki yazdığım kod bloğumu çalıştırdığımda ise şu çıktıyı alarak sizlerle paylaşıyorum :
 
-![BUİLDERDesingPattern](/assets/img/blog/builderDesingPattern3.png)
+![BUİLDERDesignPattern](/assets/img/blog/builderDesingPattern3.png)
 
 **> 📌Avantaj :**
 
