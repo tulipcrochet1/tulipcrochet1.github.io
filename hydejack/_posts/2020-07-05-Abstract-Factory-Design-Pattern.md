@@ -1,13 +1,13 @@
 ---
-title: #CREATİONAL PATTERN: 3.ABSTRACT FACTORY DESİNG PATTERN
+title: #CREATİONAL PATTERN: 3.ABSTRACT FACTORY DESİGN PATTERN
 image: /assets/img/blog/AbstractFactoryDesingPattern.png
 
 description: >
 
 ---
-## 3.ABSTRACT FACTORY DESİNG PATTERN ? 
+## 3.ABSTRACT FACTORY DESİGN PATTERN ?
 
-**“Abstract Factory Desing Pattern”,** somut sınıflarını belirtmeden birbiriyle ilişkili tüm ürünleri oluşturma sorununu çözen bir **creational desing pattern** türüdür**.**
+**“Abstract Factory Design Pattern”,** somut sınıflarını belirtmeden birbiriyle ilişkili tüm ürünleri oluşturma sorununu çözen bir **creational design pattern** türüdür**.**
 
 -   Yani nesnenin üretimiyle ilgilenen tasarımlardan biride diyebiliriz.
 
@@ -15,8 +15,7 @@ description: >
 
 -   Çok sık kullanılan mimari desenlerden birisidir.
 
-**> _Abstract Factory_, tüm farklı ürünleri oluşturmak için bir interface veya abstract sınıf tanımlar. Gerçek ürün oluşturma işlemini concrete factory classına bırakır.**  
-
+**> _Abstract Factory_, tüm farklı ürünleri oluşturmak için bir interface veya abstract sınıf tanımlar. Gerçek ürün oluşturma işlemini concrete factory classına bırakır.**
 **> Her fabrika tipi belirli bir ürün çeşidine karşılık gelir.**
 
 **Görevi : Toplu nesne kullanım ihtiyaçlarında nesnenin kullanımını kolaylaştırmaktır.**
@@ -26,8 +25,7 @@ description: >
 -   İstemci kodu fabrikalarla ve ürünlerle yalnızca abstract interface’leri aracılığıyla çalışır. Bu, istemci kodunun fabrika nesnesi tarafından oluşturulan tüm ürün değişkenleriyle çalışmasını sağlar. Biz burada sadece yeni bir concrete factory sınıfı oluşturup bunu istemci koduna iletimini sağlayacağız.
 
 **> 📊 Çizdiğim UML diyagramı şu şekilde :**
-
-![singletonDesingPattern](/assets/img/blog/AbstractFactoryDesingPattern2.png)
+![singletonDesignPattern](/assets/img/blog/AbstractFactoryDesingPattern2.png)
 
 Yukarı da Abstruct Factory örneğim için çizdiğim uml diyagramında;
 
@@ -49,7 +47,7 @@ Yukarı da Abstruct Factory örneğim için çizdiğim uml diyagramında;
 
 -   Senaryoda istemcimiz kendi veya **Factory** yardımıyla üretmek istediği ürünün üreticisi olan fabrikanın tipini seçiyor. Mesela o anda **FabrikaA**’ya yönelik ürünler gerekiyorsa **FabrikaASipris** veya **FabrikaAUret** gibi ürünlerin aralarındaki ilişkilerin sağlayıcısı fabrika tipi neyse onu seçerek üretimi gerçekleştirmiş oluyor.
 
-Bir önceki [örneğimi](https://medium.com/@sumeyyekilic/factory-desi̇ng-pattern-ff4490aef46b) düşünürsek Dağ bisikletinin bir markada bile birçok modeli olabileceği ve bunların her biri için switch case yazıldığını düşünürsek oldukça karmaşık hale gelir. **Bunu çözmek için Abstruct factory desing patternı çıkmıştır.**
+Bir önceki [örneğimi](https://medium.com/@sumeyyekilic/factory-desi̇ng-pattern-ff4490aef46b) düşünürsek Dağ bisikletinin bir markada bile birçok modeli olabileceği ve bunların her biri için switch case yazıldığını düşünürsek oldukça karmaşık hale gelir. **Bunu çözmek için Abstruct factory design patternı çıkmıştır.**
 
 **> Yazdığım Kod üzerinden bakarsak :**
 
@@ -60,7 +58,7 @@ Bir önceki [örneğimi](https://medium.com/@sumeyyekilic/factory-desi̇ng-patte
 
 Yukarıda ki gördüğünüz kod bloğunu çalıştırdığımda ise şu çıktıyı alarak sizlerle paylaşıyorum :
 
-![singletonDesingPattern](/assets/img/blog/AbstractFactoryDP3.png)
+![singletonDesignPattern](/assets/img/blog/AbstractFactoryDP3.png)
 
 **> 📌Avantaj :**
 
@@ -68,7 +66,7 @@ Yukarıda ki gördüğünüz kod bloğunu çalıştırdığımda ise şu çıkt�
 
 -   **SOLİD** prensiplerinden ;
 
-**Single Responsibility Principle** ’ı destekler. Örneğin ürün oluşturma kodunu tek bir yere çıkararak kodun daha kolay desteklenmesini sağlayabilirsiniz.  
+**Single Responsibility Principle** ’ı destekler. Örneğin ürün oluşturma kodunu tek bir yere çıkararak kodun daha kolay desteklenmesini sağlayabilirsiniz.
 
 **Open/Closed Principle**’ ı destekler. Mevcut müşterinin istemci kodunu bozmadan yeni ürün çeşitlerini tanıtabilirsiniz.
 
