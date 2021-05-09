@@ -1,15 +1,15 @@
 ---
-title: #CREATİONAL PATTERN: 2.FACTORY DESİNG PATTERN🏭
+title: #CREATİONAL PATTERN: 2.FACTORY DESİGN PATTERN🏭
 image: /assets/img/blog/FactoryDesingPattern.png
 
 description: >
 
 ---
-## 2.FACTORY DESİNG PATTERN🏭 ? (#CREATİONAL PATTERN)
+## 2.FACTORY DESİGN PATTERN🏭 ? (#CREATİONAL PATTERN)
 
-**“Factory Desing Pattern”** günümüz desing pattern’ları arasında en çok kullanılan Creational Desing Pattern methodlarından birisidir.
+**“Factory Design Pattern”** günümüz design pattern’ları arasında en çok kullanılan Creational Design Pattern methodlarından birisidir.
 
-**> _Kalıtımsal ilişkileri olan nesnelerin, ürünlerin üretilmesi amaçlı kullanılan desing pattern’dır.._**
+**> _Kalıtımsal ilişkileri olan nesnelerin, ürünlerin üretilmesi amaçlı kullanılan design pattern’dır.._**
 
 -   **Factory** kelime anlamı **fabrika** demektir.
 -   Farbrika deyince akla üretim gelir. İhtiyacımız olan her nesneyi üretebilen fabrikalar vardır.
@@ -17,10 +17,10 @@ description: >
 -   Pattern ‘in kalıbının esasını teşkil eden kavramımız bir **method**tur. bu method ise üreticinin asıl istediği ürünlerin üretilmesini sağlarlar.
 -   İstemcinin ihtiyacı olan nesne üretiminin sorumluluğu , bir metoda devrediliyor. Bu metot ise **“Factory Method”** olarak adlandırılmaktadır.
 
-**> _Factory Method; bir nesne oluşturmak için abstract veya interface sınıfları tanımlayan ancak alt sınıfların, somutlaştırılacak nesnelerin türüne karar vermesine izin veren bir Creational Desing Pattern türüdür._**
+**> _Factory Method; bir nesne oluşturmak için abstract veya interface sınıfları tanımlayan ancak alt sınıfların, somutlaştırılacak nesnelerin türüne karar vermesine izin veren bir Creational Design Pattern türüdür._**
 
 -   Amaç “yazılımda değişimi kontrol altında tutmaktır.”
--   Factory Desing Pattern’ ında en temel olay bizim bir class fabrikamızın olmasıdır.
+-   Factory Design Pattern’ ında en temel olay bizim bir class fabrikamızın olmasıdır.
 
 **> Uyguladığım örnek koda bakalım;**
 
@@ -41,7 +41,7 @@ description: >
 
 -   Son olarak main metodu içerisine ilk olarak CreatorFactory sınfından örnek türettim. daha sonra bu örneği kullanarak,
 
--   IBisiklet bisikletDag = creator.BisikletFactory(BisikletModel.Dag); 
+-   IBisiklet bisikletDag = creator.BisikletFactory(BisikletModel.Dag);
 
 tanımlaması BisikletFactory’ ler geriye IBisiklet türünden değerler döndürdükleri için bu tanımlama ile, bisikletDag, bisikletGezi, bisikletYaris diye tüm sınıfların ataması yapıldı.
 
@@ -53,16 +53,15 @@ tanımlaması BisikletFactory’ ler geriye IBisiklet türünden değerler dönd
 
 Yukarıda ki gördüğünüz kod bloğunu çalıştırdığımda ise şu çıktıyı alarak sizlerle paylaşıyorum :
 
-![singletonDesingPattern](/assets/img/blog/fdp.png)
+![singletonDesignPattern](/assets/img/blog/fdp.png)
 
 **> 📊 Oluşturduğum kodun uml sınıf diyagramı ise şu şekildedir:**
-
-![singletonDesingPattern](/assets/img/blog/FactoryDesingPattern2.jpg)
+![singletonDesignPattern](/assets/img/blog/FactoryDesingPattern2.jpg)
 
 
 **📌Avantajları:**
 
--   Factory Desing Pattern, alt sınıfların oluşturulacak nesne türünü seçmesine olanak tanır.
+-   Factory Design Pattern, alt sınıfların oluşturulacak nesne türünü seçmesine olanak tanır.
 -   SOLID’in Single Responsibility Principle ve Open/Closed Principle destekler.
 
 **📌Dezavantajları:**
