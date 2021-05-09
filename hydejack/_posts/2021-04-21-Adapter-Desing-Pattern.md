@@ -1,19 +1,18 @@
 ---
-title: # STRUCTURAL PATTERN: ADAPTER DESİNG PATTERN
+title: # STRUCTURAL PATTERN: ADAPTER DESİGN PATTERN
 image: /assets/img/blog/AdapterPattern.jpg
 
 description: >
 
 ---
-
--   Bildiğimiz üzere Desing pattern’lar 3 grup altında çeşitlendirilyor. [**Desing patterns**](https://medium.com/@sumeyyekilic/desi%CC%87ng-pattern-e85c89fd5075)  yazımı veya ilk grup creational pattern serimi okuyarak bir giriş yapabilirisiniz. .
+-   Bildiğimiz üzere Design pattern’lar 3 grup altında çeşitlendirilyor. [**Design patterns**](https://medium.com/@sumeyyekilic/desi%CC%87ng-pattern-e85c89fd5075)  yazımı veya ilk grup creational pattern serimi okuyarak bir giriş yapabilirisiniz. .
 
 Bu yazımda ise ikinci grup olan **Structural Patterns** serisine giriş yapmaktayım..
 
-**Structural Desing Pattern** nedir ? 💫 **HATIRLAYALIM ..**
+**Structural Design Pattern** nedir ? 💫 **HATIRLAYALIM ..**
 
 -   Structural = **Yapısal**. Yani nesneler arasındaki ilişkileri mimarileri yönetebilmek adına kullanılır.
--   **Structural patterns** ‘ lerden , **“ADATPER DESING PATTERN”** ‘a gelin birlikte bakalım :)
+-   **Structural patterns** ‘ lerden , **“ADATPER DESIGN PATTERN”** ‘a gelin birlikte bakalım :)
 
 #### 📌Giriş:
 
@@ -41,7 +40,7 @@ Var olan bir class ‘ımın mevcut intreface’i olsun ve birde uygulamamı tan
 
 🔌**Gelin daha geliştirici bakış açısıyla bakalım..**
 
-> Dışarıdaki yabancı bir servisi kendi projenize dahil etmek istiyoruz diyelim.. Bu yabancı servisi istediğimiz yere referans edebiliriz. Ama nasıl referans ettiğimiz burda devreye giriyor.Çünkü o yabancı servisi direkman bizim metodumuzun içinde kullanırsak o servise bağımlı oluruz. Burada adapter desing pattern’i , bağımlılığı ortadan kaldırmak için kullanabiliriz. Ve bu sayede nesnel programlama ve test edilebilirlik durumlarında sıkıntıya girmemiş oluruz.
+> Dışarıdaki yabancı bir servisi kendi projenize dahil etmek istiyoruz diyelim.. Bu yabancı servisi istediğimiz yere referans edebiliriz. Ama nasıl referans ettiğimiz burda devreye giriyor.Çünkü o yabancı servisi direkman bizim metodumuzun içinde kullanırsak o servise bağımlı oluruz. Burada adapter design pattern’i , bağımlılığı ortadan kaldırmak için kullanabiliriz. Ve bu sayede nesnel programlama ve test edilebilirlik durumlarında sıkıntıya girmemiş oluruz.
 
 💰 Mesela bir projede borçlandırma web servisini kullanıyor olalım. Onu direk metoda dahil etmek yerine ; bir adapter yazıp, bir interface’ den implemente edip metodun içinde onu kullanmak daha mantıklı olur.
 
@@ -54,8 +53,7 @@ Var olan bir class ‘ımın mevcut intreface’i olsun ve birde uygulamamı tan
 
 > **📊 Çizdiğim UML diyagramı şu şekilde :**
 
-
-![adapterpDesingPattern](/assets/img/blog/AdapterUml2.jpg)
+![adapterpDesignPattern](/assets/img/blog/AdapterUml2.jpg)
 
 
 **Yazdığım Kod üzerinden bakarsak :**
