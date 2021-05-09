@@ -1,18 +1,18 @@
 ---
-title: #CREATİONAL PATTERN: 5.PROTOTYPE DESİNG PATTERN
+title: #CREATİONAL PATTERN: 5.PROTOTYPE DESİGN PATTERN
 image: /assets/img/blog/PrototypeDesingPattern1.png
 
 description: >
 
 ---
-## 5.PROTOTYPE DESİNG PATTERN ?
+## 5.PROTOTYPE DESİGN PATTERN ?
 
-**“Prototype”**, kodumuzu sınıflarına bağımlı hale getirmeden mevcut nesnelerini kopyalamamızı sağlayan **creational desing patterni**’dir.
+**“Prototype”**, kodumuzu sınıflarına bağımlı hale getirmeden mevcut nesnelerini kopyalamamızı sağlayan **creational design pattern**’ idir.
 
 Prototype elimizde olan nesneyi klonlayarak yeni bir nesne üretmiş oluruz. Bunu klonlanan meşhur koyun Dolly gibi düşünsek bence sakıncası olmaz :)
 
 -   Temeli Clone() metoduna dayanır. Bir nesneyi klonlayarak yeni bir nesne oluşturuyoruz. Bunu yaparken meşhur “**new”** operatorümüzü kullanmıyoruz.Doğal olarak bir nesneyi en baştan yaratarak projeye maliyet oluşturmamış oluyoruz.
--   Kısacası, mevcut bir nesnenin bir kopyasını oluşturmanıza ve onu sıfırdan bir nesne oluşturma ve kurma zahmetlerini almak yerine, ihtiyaçlarınıza göre değiştirmenize izin vermenizi sağlayan bir desing patterndir.
+-   Kısacası, mevcut bir nesnenin bir kopyasını oluşturmanıza ve onu sıfırdan bir nesne oluşturma ve kurma zahmetlerini almak yerine, ihtiyaçlarınıza göre değiştirmenize izin vermenizi sağlayan bir design patterndir.
 
 **> AMAÇ:** Nesne maliyetlerini en aza çekmektir._
 
@@ -25,8 +25,7 @@ Mesela elimizde bir temel sınıftan mevcutsa, onun prototype’ ını oluşturu
 Şu açıdan bakarsanız, başka tipte nesneler de söz konusu olabilir. Birden fazla Concrete Prototype olabilir.
 
 **> 📊 Çizdiğim UML diyagramı şu şekilde :**
-
-![prototypeDesingPattern](/assets/img/blog/PrototypeDesingPattern2.png)
+![prototypeDesignPattern](/assets/img/blog/PrototypeDesingPattern2.png)
 
 Yukarıda gördüğünüz üzere;
 
@@ -70,7 +69,7 @@ Yukarıda gördüğünüz üzere;
 
 **> SONUÇ :** Yukarıda ki yazdığım kod bloğumu çalıştırdığımda ise şu çıktıyı alarak sizlerle paylaşıyorum :
 
-![BUİLDERDesingPattern](/assets/img/blog/PrototypeDesingPattern3.png)
+![BUİLDERDesignPattern](/assets/img/blog/PrototypeDesingPattern3.png)
 
 **> 📌Avantajları :**
 
@@ -80,7 +79,7 @@ Yukarıda gördüğünüz üzere;
 
 **> 📌Dezavantajları :**
 
--   Bazı projeler için prototype desing pattern kullanmak aşırıya kaçmak olabilmektedir. Neden derseniz ; mesela projede az nesne kullanılıyorsa veya prototip dizisinin genişlemesine ihtiyaç yoksa buda projenin aşırıya kaçması olmaktadır.
+-   Bazı projeler için prototype design pattern kullanmak aşırıya kaçmak olabilmektedir. Neden derseniz ; mesela projede az nesne kullanılıyorsa veya prototip dizisinin genişlemesine ihtiyaç yoksa buda projenin aşırıya kaçması olmaktadır.
 
 -   Concrete product sınıflarını client’dan gizler.
 
