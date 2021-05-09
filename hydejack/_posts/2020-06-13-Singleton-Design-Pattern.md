@@ -1,24 +1,24 @@
 ---
-title: #CREATİONAL PATTERN: 1.SİNGLETON DESİNG PATTERN
+title: #CREATİONAL PATTERN: 1.SİNGLETON DESİGN PATTERN
 image: /assets/img/blog/SingletonDesingPattern.png
 
 description: >
 
 ---
 
-## 1.SİNGLETON DESİNG PATTERN ? (#CREATİONAL PATTERN)
+## 1.SİNGLETON DESİGN PATTERN ? (#CREATİONAL PATTERN)
 
-#### Singleton Desing Pattern Nedir?
+#### Singleton Design Pattern Nedir?
 
-_**Singleton Desing Pattern bir nesne örneğinden sadece bir defa üretilip , bu nesne örneğinin her zaman kullanılmasını söyleyen bir patterndir.**_
+_**Singleton Design Pattern bir nesne örneğinden sadece bir defa üretilip , bu nesne örneğinin her zaman kullanılmasını söyleyen bir patterndir.**_
 
 -   Pattern bir önceki [**yazımda**](https://medium.com/@sumeyyekilic/desi%CC%87ng-pattern-e85c89fd5075?source=---------2------------------) açıkladığım gibi bir sorun, ve bu sorunun da çözümü demekti.
 
--   Singleton Pattern, Desing Pattern’ların 3 kategoriden ilki olan Creational Pattern ‘ın çözümlerinden en çok kullanılan pattern’idir.
+-   Singleton Pattern, Design Pattern’ların 3 kategoriden ilki olan Creational Pattern ‘ın çözümlerinden en çok kullanılan pattern’idir.
 
 -   Singleton “tekil” demektir. Yani ilgili nesneden bir tane olsun istiyorsak singleton kullanabiliriz.
 
-👩🚀 Desing patternler ile uzayı keşfe gerek yok..
+👩🚀 Design patternler ile uzayı keşfe gerek yok..
 
 📌 **Peki biz geliştiricilerin gezegenlerinde ki uygulamalarında nerelerde ve nasıl kullanırız ?**
 
@@ -34,9 +34,9 @@ Mesela benim gezegenim de bir nesne örneğim var. Katmanlar arasında geçerken
 
 ⭐Burada olduğu gibi madem biz işlem yapacak bir nesne üretiyoruz. Herkesin bunu kullanmasını istiyoruz. Öyleyse bizim **bu nesneyi bir defa üretip herkesin kullanımına açmamız** gerekir.
 
-#### 📌 Peki Singelton Desing Pattern'ı ne zaman **kullanmamalıyız** **?**
+#### 📌 Peki Singelton Design Pattern'ı ne zaman **kullanmamalıyız** **?**
 
--   Singelton Desing Pattern ile bir nesne ürettiğinizde bu bellekte her zaman sabit kalır. Diyelim ki MVC uygulamasında bir signelton manager nesnesi ürettiğinizde, IIS’i restart etmeyene kadar bu nesne ortadan kalkmaz.
+-   Singelton Design Pattern ile bir nesne ürettiğinizde bu bellekte her zaman sabit kalır. Diyelim ki MVC uygulamasında bir signelton manager nesnesi ürettiğinizde, IIS’i restart etmeyene kadar bu nesne ortadan kalkmaz.
 
 ⭐Burada dikkat etmemiz gereken şey ; bir nesneyi singleton olarak ürettiğimiz zaman herkes bunu kullanmak durumunda mı ? Yada aynı şeyi kullanacak mı ?
 
@@ -50,7 +50,7 @@ Elimde bir class var.Bundan sadece bir tane oluşturmak istediğimi düşünün.
 
 <script src="https://gist.github.com/sumeyyekilic/ebf063197acb2c3c9382796f219dcfeb.js"></script>
 
--   Yukarıda ki kodu incelerseniz ilk olarak Singleton adında bir class oluşturdum. Bu class normalde update, insert vs işlemleri yaptığı için bunu singleton desing pattern kullanır hale getirmek istedim.
+-   Yukarıda ki kodu incelerseniz ilk olarak Singleton adında bir class oluşturdum. Bu class normalde update, insert vs işlemleri yaptığı için bunu singleton design pattern kullanır hale getirmek istedim.
 
 -   Öncelikle bu nesnenin private bir constructor ‘ını oluşturdum. Dışardan erişimi engelledim.
 
@@ -62,26 +62,26 @@ Elimde bir class var.Bundan sadece bir tane oluşturmak istediğimi düşünün.
 
 -   Bu format ile temiz bir implementasyon yapılmış oldu.
 
--   Şimdi asıl önemli olan bu nesneye ihtiyaç duyduğumda kullanmam.  
-    
+-   Şimdi asıl önemli olan bu nesneye ihtiyaç duyduğumda kullanmam.
+
     Void main in içinde bu nesne new’lenemez. Kodda gördüğünüz şekilde ürettim.
 
 -   Artık yapacağım işlemleri, main class’ında oluşturduğum nesne ile çağırıp kullanabileceğim.
 
 -   Delete adında bir operasyon yazdım. Ve bu metodu main class’ı içerisinde oluşturduğum nesne ile erişebilip kullabilmesini sağladım.
 
--   Burada amacım temiz kod ile singleton desing pattern yazmayı göstermekti.
+-   Burada amacım temiz kod ile singleton design pattern yazmayı göstermekti.
 
 📊 Oluşturduğum kodun uml sınıf diyagramı ise şu şekildedir.
 
 
-![singletonDesingPattern](/assets/img/blog/singletonDesingPattern2.png)
+![singletonDesignPattern](/assets/img/blog/singletonDesingPattern2.png)
 
 Burada olayın işleyiş ve mantığını anlamamız önemlidir. Çünkü önemli olan singleton kullanıp, kullanmayacağınızı bilip doğru karar vermemizdir. Tabi buda tecrübe gerektirir.
 
-Sizinde bildiğiniz gibi artık bir şeyi yapmak kolay. Önemli olan neyi, nerede kullanacağını kestirip ,doğru zamanda nerede ne yapacağını bilmek gereklidir.. Singleton desing’ı bu şekildedir.
+Sizinde bildiğiniz gibi artık bir şeyi yapmak kolay. Önemli olan neyi, nerede kullanacağını kestirip ,doğru zamanda nerede ne yapacağını bilmek gereklidir.. Singleton design’ı bu şekildedir.
 
-❤ Yazımı buraya kadar okuduğunuz için teşekkürler ❤ 
-Bir sonraki yazımda desing patternın kategorilerinden Creational Patterns 'ın diğer alt pattern'ları için bu serinin devamı olacaktır.
+❤ Yazımı buraya kadar okuduğunuz için teşekkürler ❤
+Bir sonraki yazımda design patternın kategorilerinden Creational Patterns 'ın diğer alt pattern'ları için bu serinin devamı olacaktır.
 
 _Bu yazım, [https://medium.com/@sumeyyekilic/](https://medium.com/@sumeyyekilic/si%CC%87ngleton-desi%CC%87ng-pattern-d26dae7acb3f) ' da 13 Haziran 2020 tarihinde medium sayfamda yayınlanmıştır._
