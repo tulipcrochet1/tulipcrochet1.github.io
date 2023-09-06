@@ -39,7 +39,7 @@ Daha derin örnekleme yapmadan önce katmanlı mimarinin n katmandan oluşabilec
 
 Veri erişim katmanında sadece veritabanına erişilmektedir. Bu katmanda veritabanına erişim için update, delete, insert, select, injection, truncate gibi gerekli olan kodlar yazılır.
 
-Şöyle ki ; bağlantı kodlarını kullandığımız sınıf , özel bir sınıf olan Sql connection sınıfıdır. Sql connection ile veritabanıyla bağlantıyı açmamızı, veri listesini çekeceğimiz zaman alma , silme, güncelleme için bu işlemlere erişimimizi sağlar. Önce bağlantı açılır. Ondan sonra delete update dediğimiz sorgu işlemlerini saql command ile çalıştır hale getiririz. Ardından yazılan kodları çalıştırıp verileri listeleyip silip kaydedebileceğiz, güncelleyebileceğiz. Veri erişim katmanında bu metotları tanımlayabilir ve sınıf oluşturup gerekli yerlerde kullanabiliriz.
+Şöyle ki ; bağlantı kodlarını kullandığımız sınıf , özel bir sınıf olan Sql connection sınıfıdır. Sql connection ile veritabanıyla bağlantıyı açmamızı, veri listesini çekeceğimiz zaman alma , silme, güncelleme için bu işlemlere erişimimizi sağlar. Önce bağlantı açılır. Ondan sonra delete update dediğimiz sorgu işlemlerini sql command ile çalıştır hale getiririz. Ardından yazılan kodları çalıştırıp verileri listeleyip silip kaydedebileceğiz, güncelleyebileceğiz. Veri erişim katmanında bu metotları tanımlayabilir ve sınıf oluşturup gerekli yerlerde kullanabiliriz.
 
 Veri erişim katmanına bir görev kodu , loglama veya validasyon yapılmaz. Sadece veritabanına erişilmektedir.
 
